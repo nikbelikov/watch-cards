@@ -150,20 +150,129 @@ words = [
   // { forms: ['write', 'wrote', 'written'], translate: ['писать'], popular: true }
 ];
 
-// виды наборов
-config = [
-  {watch: '38mm', position: 'top', highlightColor: 'ffea00'},
-  {watch: '38mm', position: 'bottom', highlightColor: 'ffea00'},
-
-  {watch: '42mm', position: 'top', highlightColor: 'ffea00'},
-  {watch: '42mm', position: 'bottom', highlightColor: 'ffea00'},
-
-  {watch: '38mm', position: 'top', highlightColor: '00d8ff'},
-  {watch: '38mm', position: 'bottom', highlightColor: '00d8ff'},
-
-  {watch: '42mm', position: 'top', highlightColor: '00d8ff'},
-  {watch: '42mm', position: 'bottom', highlightColor: '00d8ff'},
+params = [
+  ['38mm', '42mm'], // watch
+  ['top', 'bottom'], // position
+  ['ffea00', '00d8ff', '00fe1e', 'ff782e'], // highlightColor
+  [true, false], // drawTranslation
 ];
+
+var generateConfig = function(params) {
+  var config = [];
+  var variants = [];
+
+  // считаем количество вариантов в каждом параметре
+  for (var param = 0; param < params.length; param += 1) {
+    variants.push(params[param].length);
+  }
+
+  // формируем конфиг возможных параметров
+  for	(var counterWatch = 0; counterWatch < variants[0]; counterWatch += 1) {
+    for	(var counterPosition = 0; counterPosition < variants[1]; counterPosition += 1) {
+      for	(var counterColor = 0; counterColor < variants[2]; counterColor += 1) {
+        for	(var counterTranslate = 0; counterTranslate < variants[3]; counterTranslate += 1) {
+          config.push({
+            watch: params[0][counterWatch],
+            position: params[1][counterPosition],
+            highlightColor: params[2][counterColor],
+            drawTranslation: params[3][counterTranslate],
+          });
+        }
+      }
+    }
+  }
+
+  return config;
+};
+
+var config = generateConfig(params);
+
+resetBackground = function () {
+  // заливаем фон
+  doc.selection.selectAll();
+  doc.selection.fill(bgColor);
+  doc.selection.deselect();
+};
+
+drawTranslation = function() {
+  // рисуем перевод
+  translationText = words[cardNumber].translate[0];
+  additionalTranslate = words[cardNumber].translate[1];
+  delim = ', ';
+
+  if (additionalTranslate) {
+    if (translationText.length + delim.length + additionalTranslate.length <= 20) {
+      translationText += delim + additionalTranslate;
+    }
+  }
+
+  translationLayer = doc.artLayers.add();
+  translationLayer.kind = LayerKind.TEXT;
+  translationLayer.name = 'translate';
+  translationLayer.textItem.contents = translationText;
+  translationLayer.textItem.font = mainFont;
+  translationLayer.textItem.size = translationText.length > 18 ? fontSizeExtraSmall : fontSizeSmall;
+  translationLayer.textItem.color = fadeColor;
+  translationLayer.textItem.position = [paddingLeft, translateTop];
+};
+
+drawWord = function () {
+  // рисуем слово
+  wordLayer = doc.artLayers.add();
+  wordLayer.kind = LayerKind.TEXT;
+  wordLayer.name = 'word';
+  wordLayer.textItem.contents = words[cardNumber].forms[0];
+  wordLayer.textItem.font = mainFont;
+  wordLayer.textItem.size = fontSizeLarge;
+  wordLayer.textItem.color = highlightColor;
+  wordLayer.textItem.position = [paddingLeft, wordTop];
+};
+
+drawForms = function () {
+  // рисуем 2 и 3 форму глагола
+  secondForm = words[cardNumber].forms[1];
+  thirdForm = words[cardNumber].forms[2];
+
+  formsText = secondForm;
+  formsText += '\r';
+  formsText += thirdForm;
+
+  fontSize = formsText.length > secondForm.length > 16 || thirdForm.length > 16 ? fontSizeSmall : fontSizeNormal;
+
+  formsLayer = doc.artLayers.add();
+  formsLayer.kind = LayerKind.TEXT;
+  formsLayer.name = 'forms';
+  formsLayer.textItem.contents = formsText;
+  formsLayer.textItem.font = mainFont;
+  formsLayer.textItem.size = fontSize;
+  formsLayer.textItem.color = mainColor;
+  formsLayer.textItem.position = [paddingLeft, formsTop];
+};
+
+saveFile = function () {
+  // сохраняем PNG
+  saveOptions = new ExportOptionsSaveForWeb();
+  saveOptions.format = SaveDocumentType.PNG;
+  saveOptions.PNG8 = false;
+  saveOptions.quality = 100;
+
+  fileName = savePath;
+  fileName += '/';
+  fileName += cardNumber.toString();
+  fileName += '.png';
+
+  pngFile = new File(fileName);
+  app.activeDocument.exportDocument(pngFile, ExportType.SAVEFORWEB, saveOptions);
+};
+
+resetLayers = function (drawTranslation) {
+  // удаляем все созданные слои
+  if (drawTranslation) {
+    translationLayer.remove();
+  }
+  wordLayer.remove();
+  formsLayer.remove();
+};
 
 for (configItem = 0; configItem < config.length; configItem += 1) {
   // параметры документа
@@ -172,7 +281,7 @@ for (configItem = 0; configItem < config.length; configItem += 1) {
   width = watch === '38mm' ? 272 : 312;
   height = watch === '38mm' ? 340 : 390;
   resolution = 72;
-  docName = config[configItem].watch + '-' + config[configItem].position + '-' + config[configItem].highlightColor;
+  docName = config[configItem].watch + '-' + config[configItem].position + '-' + config[configItem].highlightColor + '-tr_' + config[configItem].drawTranslation;
   docMode = NewDocumentMode.RGB;
   mainFont = 'Rubik-Regular';
 
@@ -207,91 +316,6 @@ for (configItem = 0; configItem < config.length; configItem += 1) {
     savePath.create();
   }
 
-  resetBackground = function () {
-    // заливаем фон
-    doc.selection.selectAll();
-    doc.selection.fill(bgColor);
-    doc.selection.deselect();
-  };
-
-  drawTranslation = function() {
-    // рисуем перевод
-    translationText = words[cardNumber].translate[0];
-    additionalTranslate = words[cardNumber].translate[1];
-    delim = ', ';
-
-    if (additionalTranslate) {
-      if (translationText.length + delim.length + additionalTranslate.length <= 20) {
-        translationText += delim + additionalTranslate;
-      }
-    }
-
-    translationLayer = doc.artLayers.add();
-    translationLayer.kind = LayerKind.TEXT;
-    translationLayer.name = 'translate';
-    translationLayer.textItem.contents = translationText;
-    translationLayer.textItem.font = mainFont;
-    translationLayer.textItem.size = translationText.length > 18 ? fontSizeExtraSmall : fontSizeSmall;
-    translationLayer.textItem.color = fadeColor;
-    translationLayer.textItem.position = [paddingLeft, translateTop];
-  };
-
-  drawWord = function () {
-    // рисуем слово
-    wordLayer = doc.artLayers.add();
-    wordLayer.kind = LayerKind.TEXT;
-    wordLayer.name = 'word';
-    wordLayer.textItem.contents = words[cardNumber].forms[0];
-    wordLayer.textItem.font = mainFont;
-    wordLayer.textItem.size = fontSizeLarge;
-    wordLayer.textItem.color = highlightColor;
-    wordLayer.textItem.position = [paddingLeft, wordTop];
-  };
-
-  drawForms = function () {
-    // рисуем 2 и 3 форму глагола
-    secondForm = words[cardNumber].forms[1];
-    thirdForm = words[cardNumber].forms[2];
-
-    formsText = secondForm;
-    formsText += '\r';
-    formsText += thirdForm;
-
-    fontSize = formsText.length > secondForm.length > 16 || thirdForm.length > 16 ? fontSizeSmall : fontSizeNormal;
-
-    formsLayer = doc.artLayers.add();
-    formsLayer.kind = LayerKind.TEXT;
-    formsLayer.name = 'forms';
-    formsLayer.textItem.contents = formsText;
-    formsLayer.textItem.font = mainFont;
-    formsLayer.textItem.size = fontSize;
-    formsLayer.textItem.color = mainColor;
-    formsLayer.textItem.position = [paddingLeft, formsTop];
-  };
-
-  saveFile = function () {
-    // сохраняем PNG
-    saveOptions = new ExportOptionsSaveForWeb();
-    saveOptions.format = SaveDocumentType.PNG;
-    saveOptions.PNG8 = false;
-    saveOptions.quality = 100;
-
-    fileName = savePath;
-    fileName += '/';
-    fileName += cardNumber.toString();
-    fileName += '.png';
-
-    pngFile = new File(fileName);
-    app.activeDocument.exportDocument(pngFile, ExportType.SAVEFORWEB, saveOptions);
-  };
-
-  resetLayers = function () {
-    // удаляем все созданные слои
-    translationLayer.remove();
-    wordLayer.remove();
-    formsLayer.remove();
-  };
-
   // создаем документ
   doc = app.documents.add(width, height, resolution, docName, docMode);
 
@@ -299,11 +323,13 @@ for (configItem = 0; configItem < config.length; configItem += 1) {
 
   // рисуем карточки
   for (cardNumber = 0; cardNumber < words.length; cardNumber += 1) {
-    drawTranslation();
+    if (config[configItem].drawTranslation) {
+      drawTranslation();
+    }
     drawWord();
     drawForms();
     saveFile();
-    resetLayers();
+    resetLayers(config[configItem].drawTranslation);
   }
 
   // закрываем документ
