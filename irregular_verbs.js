@@ -152,15 +152,22 @@ words = [
 
 // виды наборов
 config = [
-  { watch: '38mm', position: 'top', highlightColor: 'ffea00' },
-  { watch: '38mm', position: 'bottom', highlightColor: 'ffea00' },
-  { watch: '42mm', position: 'top', highlightColor: 'ffea00' },
-  { watch: '42mm', position: 'bottom', highlightColor: 'ffea00' },
-]
+  {watch: '38mm', position: 'top', highlightColor: 'ffea00'},
+  {watch: '38mm', position: 'bottom', highlightColor: 'ffea00'},
+
+  {watch: '42mm', position: 'top', highlightColor: 'ffea00'},
+  {watch: '42mm', position: 'bottom', highlightColor: 'ffea00'},
+
+  {watch: '38mm', position: 'top', highlightColor: '00d8ff'},
+  {watch: '38mm', position: 'bottom', highlightColor: '00d8ff'},
+
+  {watch: '42mm', position: 'top', highlightColor: '00d8ff'},
+  {watch: '42mm', position: 'bottom', highlightColor: '00d8ff'},
+];
 
 for (configItem = 0; configItem < config.length; configItem += 1) {
   // параметры документа
-  watch = config[configItem].watch; // '38mm' || '42mm'
+  watch = config[configItem].watch;
 
   width = watch === '38mm' ? 272 : 312;
   height = watch === '38mm' ? 340 : 390;
@@ -188,7 +195,7 @@ for (configItem = 0; configItem < config.length; configItem += 1) {
   fontSizeNormal = watch === '38mm' ? 28 : 30;
   fontSizeLarge = watch === '38mm' ? 35 : 37;
 
-  // позиции тектовых блоков
+  // позиции текстовых блоков
   textsPosition = config[configItem].position;
   paddingLeft = 12;
   translateTop = textsPosition === 'top' ? 60 : height - 143;
