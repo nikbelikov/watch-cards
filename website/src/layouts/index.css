@@ -665,15 +665,31 @@ ul {
 
 .watch-wrapper {
   flex: 1 0 0;
+  position: relative;
 }
 
 .watch {
   width: 200px;
   transition: width .5s ease;
+  margin: 0;
 }
 
 .watch-large {
   width: 220px;
+}
+
+.watch-large + .watch-screenshot {
+  width: 170px;
+}
+
+.watch-screenshot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(calc(-50% - 5px), -50%);
+  width: 150px;
+  border: 1px solid white;
+  transition: width .5s ease;
 }
 
 .params {

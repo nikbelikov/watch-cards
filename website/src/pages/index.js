@@ -23,6 +23,11 @@ export default class IndexPage extends Component {
         </div>
         <div className="watch-wrapper">
           <img className={cn('watch', {'watch-large': watch === '42mm'})} src={watchImage} alt="watch"/>
+          <img
+            className="watch-screenshot"
+            src={require(`../images/${type}/${watch}-${position}-${color}-tr_${translation}/0.png`)}
+            alt="watch screenshot"
+          />
         </div>
         <div className="params">
           <ul className="params-list">
