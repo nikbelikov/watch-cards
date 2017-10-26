@@ -8,10 +8,11 @@ export default class IndexPage extends Component {
     position: 'top', // 'top' || 'bottom'
     translation: true,
     type: 'popular', // 'popular' || 'extended'
+    color: 'ffea00', // 'ffea00', '00d8ff', '00fe1e', 'ff782e'
   };
 
   render() {
-    const { watch, position, translation, type } = this.state;
+    const { watch, position, translation, type, color } = this.state;
 
     return(
       <section className="content-wrapper">
@@ -78,6 +79,31 @@ export default class IndexPage extends Component {
               onClick={() => {this.setState({type: 'extended'})}}
             >
               расширенный набор
+            </li>
+          </ul>
+          <ul className="colors-wrapper">
+            <li
+              className={cn({'color-ffea00': true, active: color === 'ffea00'})}
+              onClick={() => {this.setState({color: 'ffea00'})}}
+            ><span></span>
+            </li>
+            <li
+              className={cn({'color-00d8ff': true, active: color === '00d8ff'})}
+              onClick={() => {this.setState({color: '00d8ff'})}}
+            >
+              <span></span>
+            </li>
+            <li
+              className={cn({'color-00fe1e': true, active: color === '00fe1e'})}
+              onClick={() => {this.setState({color: '00fe1e'})}}
+            >
+              <span></span>
+            </li>
+            <li
+              className={cn({'color-ff782e': true, active: color === 'ff782e'})}
+              onClick={() => {this.setState({color: 'ff782e'})}}
+            >
+              <span></span>
             </li>
           </ul>
         </div>

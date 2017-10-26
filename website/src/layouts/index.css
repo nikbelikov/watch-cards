@@ -704,3 +704,40 @@ ul {
   color: white;
   border-bottom-color: white;
 }
+
+.colors-wrapper {
+  display: flex;
+}
+
+.colors-wrapper span {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+}
+
+.colors-wrapper li {
+  cursor: pointer;
+}
+
+.colors-wrapper li.active span {
+  transform: scale(1.5);
+}
+
+.color-ffea00 span {
+  background: #ffea00;
+}
+
+.color-00d8ff span {
+  background: #00d8ff;
+}
+
+.color-00fe1e span {
+  background: #00fe1e;
+}
+
+.color-ff782e span {
+  background: #ff782e;
+}
