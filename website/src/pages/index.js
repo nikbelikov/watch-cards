@@ -3,13 +3,19 @@ import watchImage from '../images/watch.svg';
 import downloadImage from '../images/download.svg';
 import cn from 'classnames';
 
+const randomInteger = (min, max) => {
+  let rand = min - 0.5 + Math.random() * (max - min + 1);
+  rand = Math.round(rand);
+  return rand;
+};
+
 export default class IndexPage extends Component {
   state = {
-    watch: '38mm', // '38mm' || '42mm'
-    position: 'top', // 'top' || 'bottom'
-    translation: true,
-    type: 'popular', // 'popular' || 'extended'
-    color: 'ffea00', // 'ffea00', '00d8ff', '00fe1e', 'ff782e'
+    watch: ['38mm', '42mm'][randomInteger(0, 1)],
+    position: ['top', 'bottom'][randomInteger(0, 1)],
+    translation: [true, false][randomInteger(0, 1)],
+    type: ['popular', 'extended'][randomInteger(0, 1)],
+    color: ['ffea00', 'ffea00', '00d8ff', '00fe1e', 'ff782e'][randomInteger(0, 4)],
     loaded: false,
   };
 
@@ -18,7 +24,7 @@ export default class IndexPage extends Component {
       this.setState({
         loaded: true,
       });
-    }, 1000);
+    }, 1);
   }
 
   render() {
@@ -32,7 +38,7 @@ export default class IndexPage extends Component {
             <li>Скоро: страны и их столицы</li>
           </ul>
         </div>
-        <div className="watch-wrapper">
+        <div className={cn('watch-wrapper', {visible: loaded})}>
           <img className={cn('watch', {'watch-large': watch === '42mm'})} src={watchImage} alt="watch"/>
           <img
             className="watch-screenshot"

@@ -669,7 +669,11 @@ pre tt:after {
   justify-content: flex-end;
   flex: 2 0 0;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 2s 1.5s;
+}
+
+.themes.visible {
+  opacity: 1;
 }
 
 .themes li {
@@ -689,10 +693,6 @@ pre tt:after {
   }
 }
 
-.themes.visible {
-  opacity: 1;
-}
-
 .themes li {
   color: white;
 }
@@ -706,7 +706,12 @@ ul {
 .watch-wrapper {
   flex: 0.7 0 0;
   position: relative;
-  transition: flex .3s;
+  transition: flex .3s, opacity 1s .1s;
+  opacity: 0;
+}
+
+.watch-wrapper.visible {
+  opacity: 1;
 }
 
 @media (max-width: 1700px) {
@@ -786,7 +791,7 @@ ul {
   align-items: flex-start;
   flex: 2 0 0;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 2s 1.5s;
 }
 
 .params.visible {
@@ -882,7 +887,7 @@ ul {
   font-size: 9px;
   color: white;
   opacity: 0;
-  transition: opacity 1s 1s;
+  transition: opacity 1s 3s;
 }
 
 .nikbelikov.visible {
