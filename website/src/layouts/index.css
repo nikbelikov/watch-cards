@@ -672,6 +672,15 @@ pre tt:after {
   transition: opacity 1s;
 }
 
+.themes li {
+  border-bottom: 1px solid transparent;
+  line-height: 18px;
+}
+
+.themes li.active {
+  border-bottom-color: white;
+}
+
 @media (max-width: 900px) {
   .themes {
     justify-content: center;
@@ -855,11 +864,12 @@ ul {
   margin-left: 10px;
 }
 
+.download-set:hover img {
+  opacity: 0.7;
+}
+
 .download-set img {
   width: 30px;
   margin: 0;
-}
-
-.download-set img:hover {
-  opacity: 0.8;
+  cursor: pointer;
 }

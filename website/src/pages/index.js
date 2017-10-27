@@ -28,7 +28,8 @@ export default class IndexPage extends Component {
       <section className="content-wrapper">
         <div className={cn('themes', {visible: loaded})}>
           <ul>
-            <li>Неправильные глаголы английского языка</li>
+            <li className="active">Неправильные глаголы английского языка</li>
+            <li>Скоро: страны и их столицы</li>
           </ul>
         </div>
         <div className="watch-wrapper">
@@ -122,7 +123,7 @@ export default class IndexPage extends Component {
             </li>
           </ul>
           <a
-            href={`../src/kits/${type}/${watch}-${position}-${color}-tr_${translation}.zip`}
+            href={`http://watchcards.ru/kits/${type}/${watch}-${position}-${color}-tr_${translation}.zip`}
             className="download-set"
           >
             <img
