@@ -133,6 +133,7 @@ export default class IndexPage extends Component {
             />
           </a>
         </div>
+        <span className={cn('nikbelikov', {visible: loaded})}>2017 &copy; <a href="http://nikbelikov.ru/" target="_blank" rel="noopener noreferrer">nikbelikov.ru</a></span>
       </section>
     );
   }
