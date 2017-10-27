@@ -767,7 +767,7 @@ ul {
 }
 
 .watch-large + .watch-screenshot {
-  width: 170px;
+  width: 160px;
 }
 
 .watch-screenshot {
@@ -775,7 +775,7 @@ ul {
   left: 50%;
   top: 50%;
   transform: translate(calc(-50% - 5px), -50%);
-  width: 150px;
+  width: 145px;
   transition: width .5s;
 }
 
