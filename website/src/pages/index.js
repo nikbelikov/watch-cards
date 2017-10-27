@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import watchImage from '../images/watch.svg';
+import downloadImage from '../images/download.svg';
 import cn from 'classnames';
 
 export default class IndexPage extends Component {
@@ -9,14 +10,23 @@ export default class IndexPage extends Component {
     translation: true,
     type: 'popular', // 'popular' || 'extended'
     color: 'ffea00', // 'ffea00', '00d8ff', '00fe1e', 'ff782e'
+    loaded: false,
   };
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        loaded: true,
+      });
+    }, 1000);
+  }
+
   render() {
-    const { watch, position, translation, type, color } = this.state;
+    const { watch, position, translation, type, color, loaded } = this.state;
 
     return(
       <section className="content-wrapper">
-        <div className="themes">
+        <div className={cn('themes', {visible: loaded})}>
           <ul>
             <li>Неправильные глаголы английского языка</li>
           </ul>
@@ -25,11 +35,11 @@ export default class IndexPage extends Component {
           <img className={cn('watch', {'watch-large': watch === '42mm'})} src={watchImage} alt="watch"/>
           <img
             className="watch-screenshot"
-            src={require(`../images/${type}/${watch}-${position}-${color}-tr_${translation}/0.png`)}
+            src={require(`../images/${type}/42mm-${position}-${color}-tr_${translation}/0.png`)}
             alt="watch screenshot"
           />
         </div>
-        <div className="params">
+        <div className={cn('params', {visible: loaded})}>
           <ul className="params-list">
             <li
               className={cn({active: watch === '38mm'})}
@@ -111,6 +121,16 @@ export default class IndexPage extends Component {
               <span></span>
             </li>
           </ul>
+          <a
+            href={`../src/kits/${type}/${watch}-${position}-${color}-tr_${translation}.zip`}
+            className="download-set"
+          >
+            <img
+              src={downloadImage}
+              alt="download image"
+              title={`Скачать набор для Apple Watch ${watch}`}
+            />
+          </a>
         </div>
       </section>
     );

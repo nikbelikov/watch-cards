@@ -631,13 +631,25 @@ pre tt:after {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-size: 16px;
+  font-size: 15px;
   font-family: Arial, sans-serif;
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    display: block;
+  }
 }
 
 .content-wrapper {
   display: flex;
   width: 100%;
+}
+
+@media (max-width: 900px) {
+  .content-wrapper {
+    display: block;
+  }
 }
 
 .themes, .watch-wrapper, .params {
@@ -647,10 +659,29 @@ pre tt:after {
   justify-content: center;
 }
 
+@media (max-width: 900px) {
+  .themes, .watch-wrapper, .params {
+    width: 100%;
+  }
+}
+
 .themes {
   justify-content: flex-end;
-  text-align: right;
   flex: 2 0 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+@media (max-width: 900px) {
+  .themes {
+    justify-content: center;
+    flex: 1 0 0;
+    padding-top: 20px;
+  }
+}
+
+.themes.visible {
+  opacity: 1;
 }
 
 .themes li {
@@ -664,14 +695,57 @@ ul {
 }
 
 .watch-wrapper {
-  flex: 1 0 0;
+  flex: 0.7 0 0;
   position: relative;
+  transition: flex .3s;
+}
+
+@media (max-width: 1700px) {
+  .watch-wrapper {
+    flex: 0.8 0 0;
+  }
+}
+
+@media (max-width: 1700px) {
+  .watch-wrapper {
+    flex: 0.9 0 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .watch-wrapper {
+    flex: 1.1 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .watch-wrapper {
+    flex: 1.3 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .watch-wrapper {
+    flex: 1.5 0 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .watch-wrapper {
+    margin-bottom: 30px;
+  }
 }
 
 .watch {
   width: 200px;
   transition: width .5s ease;
   margin: 0;
+}
+
+@media (max-width: 900px) {
+  .watch {
+    width: 180px;
+  }
 }
 
 .watch-large {
@@ -688,8 +762,13 @@ ul {
   top: 50%;
   transform: translate(calc(-50% - 5px), -50%);
   width: 150px;
-  border: 1px solid white;
   transition: width .5s ease;
+}
+
+@media (max-width: 900px) {
+  .watch-screenshot {
+    width: 140px;
+  }
 }
 
 .params {
@@ -697,6 +776,19 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   flex: 2 0 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.params.visible {
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .params {
+    align-items: center;
+    margin-bottom: 20px;
+  }
 }
 
 .params-list {
@@ -756,4 +848,18 @@ ul {
 
 .color-ff782e span {
   background: #ff782e;
+}
+
+.download-set {
+  color: white;
+  margin-left: 10px;
+}
+
+.download-set img {
+  width: 30px;
+  margin: 0;
+}
+
+.download-set img:hover {
+  opacity: 0.8;
 }
