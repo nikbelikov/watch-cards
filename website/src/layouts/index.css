@@ -907,8 +907,12 @@ ul {
 
 .nikbelikov a {
   color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 1s;
 }
 
 .nikbelikov a:hover {
-  text-decoration: none;
+  border-bottom-color: white;
+  transition: border-color 0s 0s;
 }
