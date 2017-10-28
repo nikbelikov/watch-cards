@@ -27,6 +27,16 @@ export default class IndexPage extends Component {
     }, 1);
   }
 
+  handleDownload = () => {
+    const { watch, position, translation, type, color } = this.state;
+
+    window.location = `http://watchcards.ru/kits/${type}/${watch}-${position}-${color}-tr_${translation}.zip`;
+
+    setTimeout(() => {
+      window.location = '/wtf';
+    }, 1000);
+  };
+
   render() {
     const { watch, position, translation, type, color, loaded } = this.state;
 
@@ -128,16 +138,13 @@ export default class IndexPage extends Component {
               <span></span>
             </li>
           </ul>
-          <a
-            href={`http://watchcards.ru/kits/${type}/${watch}-${position}-${color}-tr_${translation}.zip`}
+          <img
             className="download-set"
-          >
-            <img
-              src={downloadImage}
-              alt="download image"
-              title={`Скачать набор для Apple Watch ${watch}`}
-            />
-          </a>
+            onClick={this.handleDownload}
+            src={downloadImage}
+            alt="download image"
+            title={`Скачать набор для Apple Watch ${watch}`}
+          />
         </div>
         <span className={cn('nikbelikov', {visible: loaded})}>2017 &copy; <a href="http://nikbelikov.ru/" target="_blank" rel="noopener noreferrer">nikbelikov.ru</a></span>
       </section>
