@@ -5,6 +5,7 @@ import photoApp from '../images/photo-app.png';
 import selectWatchface from '../images/select-watchface.jpeg';
 import newWatchface from '../images/new-watchface.png';
 import watchfaceSettings from '../images/watchface-settings.png';
+import realPhoto from '../images/real.jpg';
 
 const WtfPage = () => (
   <div className="text-wtapper">
@@ -30,6 +31,9 @@ const WtfPage = () => (
       <img className="mobile-app-screenshot" src={watchfaceSettings} alt="watchface settings"/>
     </p>
     <p>Все готово! Теперь каждый раз, когда вы будете поднимать запястье, чтобы посмотреть время, карточки будут случайным образом показываться вам, чтобы вы лучше запомнили нужную информацию.</p>
+    <p>
+      <img className="desktop-app-screenshot" src={realPhoto} alt="real photo"/>
+    </p>
     <Link to="/">Перейти к конфигуратору</Link>
   </div>
 );
