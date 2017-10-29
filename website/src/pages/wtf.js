@@ -12,7 +12,7 @@ const WtfPage = () => (
     <h1>Как пользоваться?</h1>
     <p>1. После выкачивания .zip архива нужно его распаковать и добавить папку с фотографиями в приложение <a href="https://www.apple.com/ru/macos/photos/" target="_blank" rel="noopener noreferrer">Фото</a> на своем Mac, либо через веб-браузер на сайте <a href="http://icloud.com/" target="_blank" rel="noopener noreferrer">icloud.com</a>.</p>
     <p>
-      <img className="desktop-app-screenshot" src={photoApp} alt="photo app"/>
+      <img className="large-screenshot" src={photoApp} alt="photo app"/>
     </p>
     <p>2. Далее в приложении Watch на своем iPhone перейдите в раздел <span className="orange-text">Мои часы</span> -> Фото и выберите альбом для синхронизации, где хранятся карточки. Также можете выставить Макс. кол-во фото равным 500 фото для удобства.</p>
     <p>
@@ -24,15 +24,15 @@ const WtfPage = () => (
     </p>
     <p>Вы также можете добавить новый циферблат с помощью интерфейса Apple Watch. Для этого сильно нажмите на экран, находясь на любом из циферблатов, пролистайте вправо список добавленных циферблатов и нажмите на иконку со знаком "+".</p>
     <p>
-      <img className="mobile-app-screenshot" src={newWatchface} alt="new watchface"/>
+      <img className="watch-app-screenshot" src={newWatchface} alt="new watchface"/>
     </p>
     <p>Настроить все нужные параметры и нажмите на колесико Digital Crown.</p>
     <p>
-      <img className="mobile-app-screenshot" src={watchfaceSettings} alt="watchface settings"/>
+      <img className="watch-app-screenshot" src={watchfaceSettings} alt="watchface settings"/>
     </p>
     <p>Все готово! Теперь каждый раз, когда вы будете поднимать запястье, чтобы посмотреть время, карточки будут случайным образом показываться вам, чтобы вы лучше запомнили нужную информацию.</p>
     <p>
-      <img className="desktop-app-screenshot" src={realPhoto} alt="real photo"/>
+      <img className="large-screenshot" src={realPhoto} alt="real photo"/>
     </p>
     <Link to="/">Перейти к конфигуратору</Link>
   </div>
