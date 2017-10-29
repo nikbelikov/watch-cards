@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import watchApp from '../images/watch-app.jpg';
 import photoApp from '../images/photo-app.png';
-import selectWatchface from '../images/select-watchface.jpeg';
+import selectWatchface from '../images/select-watchface.jpg';
 import newWatchface from '../images/new-watchface.png';
 import watchfaceSettings from '../images/watchface-settings.png';
 import realPhoto from '../images/real.jpg';
