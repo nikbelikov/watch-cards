@@ -1,0 +1,35 @@
+.title {
+  color: white;
+}
+
+.orange {
+  color: #ff9501;
+}
+
+.largeImage {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mobileImage {
+  width: auto;
+  max-width: 240px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .mobileImage {
+    margin: 0 auto;
+  }
+}
+
+.watchImage {
+  max-width: 150px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .watchImage {
+    margin: 0 auto;
+  }
+}

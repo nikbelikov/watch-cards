@@ -628,32 +628,6 @@ pre tt:after {
   }
 }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  font-size: 15px;
-  font-family: Arial, sans-serif;
-}
-
-@media (max-width: 900px) {
-  .wrapper {
-    display: block;
-  }
-}
-
-.content-wrapper {
-  display: flex;
-  width: 100%;
-}
-
-@media (max-width: 900px) {
-  .content-wrapper {
-    display: block;
-  }
-}
-
 .themes, .watch-wrapper, .params {
   width: 33.33%;
   display: flex;
@@ -913,48 +887,4 @@ ul {
 .nikbelikov a:hover {
   border-bottom-color: white;
   transition: border-color 0s 0s;
-}
-
-.text-wtapper {
-  max-width: 700px;
-  padding: 50px 0;
-}
-
-@media (max-width: 900px) {
-  .text-wtapper {
-    padding: 20px;
-  }
-}
-
-.orange-text {
-  color: #ff9501;
-}
-
-.large-screenshot {
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.mobile-app-screenshot {
-  width: auto;
-  max-width: 250px;
-  display: block;
-}
-
-@media (max-width: 900px) {
-  .mobile-app-screenshot {
-    margin: 0 auto;
-  }
-}
-
-.watch-app-screenshot {
-  max-width: 150px;
-  display: block;
-}
-
-@media (max-width: 900px) {
-  .watch-app-screenshot {
-    margin: 0 auto;
-  }
 }

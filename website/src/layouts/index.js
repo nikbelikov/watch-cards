@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './index.css'
+import './basic.css'
+import styles from './layout.module.css';
 
-const TemplateWrapper = ({ children }) => (
-  <div className="wrapper">
+const IndexWrapper = ({ children }) => (
+  <div className={styles.wrapper}>
     {children()}
   </div>
 );
 
-TemplateWrapper.propTypes = {
+IndexWrapper.propTypes = {
   children: PropTypes.func,
 };
 
-export default TemplateWrapper
+export default IndexWrapper
