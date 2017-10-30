@@ -646,6 +646,7 @@ pre tt:after {
   flex: 2 0 0;
   opacity: 0;
   transition: opacity 2s 1.5s;
+  cursor: default;
 }
 
 .themes.visible {
