@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Link from 'gatsby-link';
 
-export default class NotFoundPage extends Component {
-  componentWillMount() {
-    window.location = "/";
-  }
+const NotFoundPage = () => (
+  <div>
+    <h1>Страница не найдена</h1>
+    <p><Link to="/">Перейти к конфигуратору</Link></p>
+  </div>
+);
 
-  render() {
-    return (
-      <h1>Загрузка...</h1>
-    );
-  };
-}
+export default NotFoundPage
