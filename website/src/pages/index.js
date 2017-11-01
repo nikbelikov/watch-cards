@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import Link from 'gatsby-link';
 import watchImage from '../images/watch.svg';
+import questionImage from '../images/question.svg';
 import downloadImage from '../images/download.svg';
 import cn from 'classnames';
 import helpers from '../shared/helpers';
@@ -174,6 +176,16 @@ export default class IndexPage extends Component {
     );
   }
 
+  renderHelp() {
+    const { loaded } = this.state;
+
+    return (
+      <Link to="/wtf">
+        <img className={cn(styles.question, {[styles.questionLoaded]: loaded})} src={questionImage} alt="как пользоваться"/>
+      </Link>
+    );
+  }
+
   render() {
     return(
       <section className={styles.wrapper}>
@@ -181,6 +193,7 @@ export default class IndexPage extends Component {
         {this.renderWatch()}
         {this.renderParams()}
         {this.renderCopyright()}
+        {this.renderHelp()}
       </section>
     );
   }

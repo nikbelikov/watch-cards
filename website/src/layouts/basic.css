@@ -666,7 +666,7 @@ pre tt:after {
   .themes {
     justify-content: center;
     flex: 1 0 0;
-    padding-top: 20px;
+    padding-top: 50px;
   }
 }
 

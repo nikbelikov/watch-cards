@@ -8,3 +8,21 @@
     display: block;
   }
 }
+
+.question {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 2s 1.5s, transform 0.2s;
+}
+
+.questionLoaded {
+  opacity: 1;
+}
+
+.question.questionLoaded:hover {
+  transform: scale(1.5);
+}
