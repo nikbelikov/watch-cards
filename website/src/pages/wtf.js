@@ -28,7 +28,7 @@ const WtfPage = () => (
     <p>
       <img className={styles.watchImage} src={newWatchface} alt="new watchface"/>
     </p>
-    <p>Настроить все нужные параметры и нажмите на колесико Digital Crown.</p>
+    <p>Настройте все нужные параметры и нажмите на колесико Digital Crown.</p>
     <p>
       <img className={styles.watchImage} src={watchfaceSettings} alt="watchface settings"/>
     </p>
