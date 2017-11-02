@@ -16,7 +16,7 @@ const WtfPage = () => (
     <p>
       <img className={styles.largeImage} src={photoApp} alt="photo app"/>
     </p>
-    <p>2. Далее в приложении Watch на своем iPhone перейдите в раздел <span className={styles.orange}>Мои часы</span> -> Фото и выберите альбом для синхронизации, где хранятся карточки. Также можете выставить Макс. кол-во фото равным 500 фото для удобства.</p>
+    <p>2. Далее в приложении Watch на своем iPhone перейдите в раздел <span className={styles.orange}>Мои часы</span> -> Фото и выберите альбом для синхронизации, где хранятся карточки. Также можете выставить максимальное количество фото равным 500 штук для удобства.</p>
     <p>
       <img className={styles.mobileImage} src={watchApp} alt="watch app"/>
     </p>
@@ -32,7 +32,7 @@ const WtfPage = () => (
     <p>
       <img className={styles.watchImage} src={watchfaceSettings} alt="watchface settings"/>
     </p>
-    <p>Все готово! Теперь каждый раз, когда вы будете поднимать запястье, чтобы посмотреть время, карточки будут случайным образом показываться вам, чтобы вы лучше запомнили нужную информацию.</p>
+    <p>Все готово! Теперь каждый раз, поднимая запястье, вы будете видеть одну из карточек.</p>
     <p>
       <img className={styles.largeImage} src={realPhoto} alt="real photo"/>
     </p>
