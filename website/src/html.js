@@ -41,6 +41,12 @@ module.exports = class HTML extends React.Component {
         <link rel="mask-icon" href={safariTabIcon} color="#5bbad5"/>
         <meta name="theme-color" content="#ffffff"/>
         <title>Watchcards.ru - Карточки для Apple Watch</title>
+        <meta property="og:url" content="http://watchcards.ru/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Watchcards.ru"/>
+        <meta property="og:image" content={appleTouchIcon}/>
+        <meta property="og:description" content="Карточки для Apple Watch"/>
+        <meta property="og:site_name" content="Watchcards.ru"/>
         {this.props.headComponents}
         {css}
       </head>
