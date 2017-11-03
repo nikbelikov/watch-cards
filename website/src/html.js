@@ -31,6 +31,7 @@ module.exports = class HTML extends React.Component {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link rel="icon" type="image/png" sizes="32x32" href={favicon} />
+        <title>Watchcards.ru - Карточки для Apple Watch</title>
         {this.props.headComponents}
         {css}
       </head>
