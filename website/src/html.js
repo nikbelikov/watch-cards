@@ -34,6 +34,7 @@ module.exports = class HTML extends React.Component {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <meta name="description" content="Карточки для Apple Watch"/>
         <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
         <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32}/>
         <link rel="icon" type="image/png" sizes="16x16" href={favicon16x16}/>
