@@ -149,6 +149,7 @@ export default class IndexPage extends Component {
             <span></span>
           </li>
         </ul>
+        <p className={styles.text}>Чтобы скачать архив с карточками, вам понадобится зайти на сайт с настольного браузера, так как некоторые мобильные устройства имеют ограничения для загрузки файлов.</p>
         {this.renderDownloadIcon()}
       </div>
     );

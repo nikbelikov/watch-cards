@@ -852,6 +852,12 @@ ul {
   opacity: 0.7;
 }
 
+@media (max-width: 900px) {
+  .download-set {
+    display: none;
+  }
+}
+
 .nikbelikov {
   position: fixed;
   bottom: 20px;
