@@ -654,7 +654,7 @@ pre tt:after {
 }
 
 .themes li {
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px dashed transparent;
   line-height: 18px;
 }
 
@@ -790,7 +790,7 @@ ul {
   margin: 0 10px;
   cursor: pointer;
   transition: color 1s 0s;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px dashed transparent;
   line-height: 18px;
 }
 
