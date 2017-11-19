@@ -841,6 +841,10 @@ ul {
   background: #ff782e;
 }
 
+.color-ff5ace span {
+  background: #ff5ace;
+}
+
 .download-set {
   color: white;
   margin: 0 0 0 10px;

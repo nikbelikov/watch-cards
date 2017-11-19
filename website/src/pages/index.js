@@ -13,7 +13,7 @@ export default class IndexPage extends Component {
     position: ['top', 'bottom'][helpers.randomInteger(0, 1)],
     translation: [true, false][helpers.randomInteger(0, 1)],
     type: ['popular', 'extended'][helpers.randomInteger(0, 1)],
-    color: ['ffea00', 'ffea00', '00d8ff', '00fe1e', 'ff782e'][helpers.randomInteger(0, 4)],
+    color: ['ffea00', 'ffea00', '00d8ff', '00fe1e', 'ff782e', 'ff5ace'][helpers.randomInteger(0, 5)],
     loaded: false,
   };
 
@@ -145,6 +145,12 @@ export default class IndexPage extends Component {
           <li
             className={cn({'color-ff782e': true, active: color === 'ff782e'})}
             onClick={() => {this.setState({color: 'ff782e'})}}
+          >
+            <span></span>
+          </li>
+          <li
+            className={cn({'color-ff5ace': true, active: color === 'ff5ace'})}
+            onClick={() => {this.setState({color: 'ff5ace'})}}
           >
             <span></span>
           </li>
