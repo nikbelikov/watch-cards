@@ -7,7 +7,6 @@ module.exports = {
     width: 312,
     height: 390,
   },
-  padLeft: 12,
   padTop: 40,
   mainColor: '#fff',
   font: 'src/shared/fonts/Rubik.ttf',

@@ -49,5 +49,30 @@ module.exports = {
     }
 
     return value;
-  }
+  },
+
+  generateCountriesConfig(params) {
+    let config = [];
+    let variants = [];
+
+    // считаем количество вариантов в каждом параметре
+    for (let param = 0; param < params.length; param += 1) {
+      variants.push(params[param].length);
+    }
+
+    // формируем конфиг возможных параметров
+    for	(let counterWatch = 0; counterWatch < variants[0]; counterWatch += 1) {
+      for	(let counterPosition = 0; counterPosition < variants[1]; counterPosition += 1) {
+        for	(let counterColor = 0; counterColor < variants[2]; counterColor += 1) {
+          config.push({
+            watch: params[0][counterWatch],
+            position: params[1][counterPosition],
+            color: params[2][counterColor],
+          });
+        }
+      }
+    }
+
+    return config;
+  },
 };
