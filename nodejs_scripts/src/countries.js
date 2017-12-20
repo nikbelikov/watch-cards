@@ -1,16 +1,14 @@
 const fs = require('fs');
 const gm = require('gm');
-const path = require('path');
-const zipFolder = require('zip-folder');
 
 const countries = require('./config/countriesList');
 const helpers = require('./shared/helpers');
 const watchParams = require('./shared/watchParams');
 
 const params = [
-  ['small', 'big'], // watch
-  ['top', 'bottom'], // position
-  ['#ffea00', '#00d8ff', '#00fe1e', '#ff782e', '#ff5ace'], // highlightColor
+  ['small', 'big'],
+  ['top', 'bottom'],
+  ['#ffea00', '#00d8ff', '#00fe1e', '#ff782e', '#ff5ace'],
 ];
 
 const config = helpers.generateCountriesConfig(params);
@@ -19,10 +17,12 @@ if (!fs.existsSync('dist')) {
   fs.mkdirSync('dist', () => {});
 }
 
+let images = [];
+
 config.forEach((config) => {
   countries.forEach((country) => {
     const { font, fontLarge, mainColor } = watchParams;
-    const {name, capital, alpha2} = country;
+    const {name, capital, iso} = country;
     const watch = config.watch;
     const docSize = helpers.getDocSize(watch);
     const position = config.position;
@@ -33,16 +33,34 @@ config.forEach((config) => {
     const folderLocation = `dist/${folderName}`;
 
     if (!fs.existsSync(folderLocation)) {
-      fs.mkdir(folderLocation);
+      fs.mkdirSync(folderLocation);
     }
 
-    gm(docSize.width, docSize.height, 'black')
+    const image = gm(docSize.width, docSize.height, 'black')
       .fill(config.color)
       .font(font, fontLarge.value)
       .drawText(0, top.countryPosition, name.toUpperCase())
       .fontSize(helpers.getCapitalFontSize(capital))
       .fill(mainColor)
-      .drawText(0, top.capitalPosition, capital.toUpperCase())
-      .write(`${folderLocation}/${name.toLowerCase()}.png`, () => {});
+      .drawText(0, top.capitalPosition, capital.toUpperCase());
+
+    images.push({
+      gmImage: image,
+      path: `${folderLocation}/${iso.toLowerCase()}.png`,
+    });
   });
 });
+
+let promise = Promise.resolve();
+
+images.forEach(image => {
+  promise = promise.then(() => writeImage(image))
+});
+
+const writeImage = image => new Promise(resolve => {
+  const { gmImage, path } = image;
+
+  gmImage.write(path, resolve);
+  console.log(path);
+});
+
