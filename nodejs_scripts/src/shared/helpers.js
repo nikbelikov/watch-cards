@@ -1,4 +1,4 @@
-const watchParams = require('./watchParams');
+const watchParams = require('../config/watchParams');
 
 module.exports = {
   getDocSize(watch) {

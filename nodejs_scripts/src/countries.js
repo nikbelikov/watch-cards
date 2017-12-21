@@ -1,9 +1,9 @@
 const fs = require('fs');
 const gm = require('gm');
 
-const countries = require('./config/countriesList');
+const countries = require('./shared/countriesList');
 const helpers = require('./shared/helpers');
-const watchParams = require('./shared/watchParams');
+const watchParams = require('./config/watchParams');
 
 const params = [
   ['small', 'big'],
