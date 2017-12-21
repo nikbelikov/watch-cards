@@ -1918,7 +1918,7 @@ module.exports = [
     "name": "Доминиканская\nРеспублика",
     "fullname": " ",
     "english": "Dominican Republic",
-    "capital": "Розо",
+    "capital": "Санто-Доминго",
     "capital-en": "",
     "iso": "DO",
     "mok": "DOM",

@@ -53,10 +53,6 @@ config.forEach((config) => {
 
 let promise = Promise.resolve();
 
-images.forEach(image => {
-  promise = promise.then(() => writeImage(image))
-});
-
 const writeImage = image => new Promise(resolve => {
   const { gmImage, path } = image;
 
@@ -64,3 +60,6 @@ const writeImage = image => new Promise(resolve => {
   console.log(path);
 });
 
+images.forEach(image => {
+  promise = promise.then(() => writeImage(image))
+});
