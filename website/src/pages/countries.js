@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import watchImage from '../images/watch.svg';
 import questionImage from '../images/question.svg';
@@ -9,10 +9,8 @@ import styles from './index.module.css';
 
 export default class IndexPage extends Component {
   state = {
-    watch: ['38mm', '42mm'][helpers.randomInteger(0, 1)],
+    watch: ['small', 'big'][helpers.randomInteger(0, 1)],
     position: ['top', 'bottom'][helpers.randomInteger(0, 1)],
-    translation: [true, false][helpers.randomInteger(0, 1)],
-    type: ['popular', 'extended'][helpers.randomInteger(0, 1)],
     color: ['ffea00', 'ffea00', '00d8ff', '00fe1e', 'ff782e', 'ff5ace'][helpers.randomInteger(0, 5)],
     loaded: false,
   };
@@ -41,24 +39,24 @@ export default class IndexPage extends Component {
     return (
       <div className={cn('themes', {visible: loaded})}>
         <ul>
-          <li>Неправильные глаголы английского языка</li>
           <li>
-            <Link to="/countries">Страны и их столицы</Link>
+            <Link to="/">Неправильные глаголы английского языка</Link>
           </li>
+          <li>Страны и их столицы</li>
         </ul>
       </div>
     );
   }
 
   renderWatch() {
-    const { watch, position, translation, type, color, loaded } = this.state;
+    const { watch, position, color, loaded } = this.state;
 
     return (
       <div className={cn('watch-wrapper', {visible: loaded})}>
-        <img className={cn('watch', {'watch-large': watch === '42mm'})} src={watchImage} alt="watch"/>
+        <img className={cn('watch', {'watch-large': watch === 'big'})} src={watchImage} alt="watch"/>
         <img
           className="watch-screenshot"
-          src={require(`../images/${type}/42mm-${position}-${color}-tr_${translation}/0.png`)}
+          src={require(`../images/countries/big_${position}_#${color}/0.png`)}
           alt="watch screenshot"
         />
       </div>
@@ -72,14 +70,14 @@ export default class IndexPage extends Component {
       <div className={cn('params', {visible: loaded})}>
         <ul className="params-list">
           <li
-            className={cn({active: watch === '38mm'})}
-            onClick={() => {this.setState({watch: '38mm'})}}
+            className={cn({active: watch === 'small'})}
+            onClick={() => {this.setState({watch: 'small'})}}
           >
             38mm
           </li>
           <li
-            className={cn({active: watch === '42mm'})}
-            onClick={() => {this.setState({watch: '42mm'})}}
+            className={cn({active: watch === 'big'})}
+            onClick={() => {this.setState({watch: 'big'})}}
           >
             42mm
           </li>
@@ -96,34 +94,6 @@ export default class IndexPage extends Component {
             onClick={() => {this.setState({position: 'bottom'})}}
           >
             внизу
-          </li>
-        </ul>
-        <ul className="params-list">
-          <li
-            className={cn({active: translation})}
-            onClick={() => {this.setState({translation: true})}}
-          >
-            с переводом
-          </li>
-          <li
-            className={cn({active: !translation})}
-            onClick={() => {this.setState({translation: false})}}
-          >
-            без перевода
-          </li>
-        </ul>
-        <ul className="params-list">
-          <li
-            className={cn({active: type === 'popular'})}
-            onClick={() => {this.setState({type: 'popular'})}}
-          >
-            популярные
-          </li>
-          <li
-            className={cn({active: type === 'extended'})}
-            onClick={() => {this.setState({type: 'extended'})}}
-          >
-            расширенный набор
           </li>
         </ul>
         <ul className="colors-wrapper">
