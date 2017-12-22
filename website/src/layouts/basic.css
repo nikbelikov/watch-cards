@@ -881,7 +881,7 @@ ul {
   font-size: 9px;
   color: white;
   opacity: 0;
-  transition: opacity 1s 3s;
+  transition: opacity 2s 1.5s;
 }
 
 .nikbelikov.visible {

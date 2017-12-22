@@ -21,6 +21,8 @@ export default class IndexPage extends Component {
         loaded: true,
       });
     }, 1);
+
+    localStorage.setItem('page', '/countries');
   }
 
   handleDownload = () => {
