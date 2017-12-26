@@ -5,2133 +5,2133 @@ module.exports = [
     "fullname": "Королевство Нидерландов",
     "english": "Netherlands",
     "capital": "Амстердам",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NL",
     "mok": "NLD",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Андорра",
     "fullname": "Княжество Андорра",
     "english": "Andorra",
     "capital": "Андорра-ла-Велья",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AD",
     "mok": "AND",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Греция",
     "fullname": "Греческая Республика",
     "english": "Greece",
     "capital": "Афины",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GR",
     "mok": "GRC",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Сербия",
     "fullname": "Республика Сербия",
     "english": "Serbia",
     "capital": "Белград",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "RS",
     "mok": "SRB",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Германия",
     "fullname": "Федеративная Республика Германия",
     "english": "Germany",
     "capital": "Берлин",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "DE",
     "mok": "DEU",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Швейцария",
     "fullname": "Швейцарская Конфедерация",
     "english": "Switzerland",
     "capital": "Берн",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CH",
     "mok": "CHE",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Словакия",
     "fullname": "Словацкая Республика",
     "english": "Slovakia",
     "capital": "Братислава",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SK",
     "mok": "SVK",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Бельгия",
     "fullname": "Королевство Бельгии",
     "english": "Belgium",
     "capital": "Брюссель",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BE",
     "mok": "BEL",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Венгрия",
     "fullname": "Венгерская Республика",
     "english": "Hungary",
     "capital": "Будапешт",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "HU",
     "mok": "HUN",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Румыния",
     "fullname": " ",
     "english": "Romania",
     "capital": "Бухарест",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "RO",
     "mok": "ROU",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Лихтенштейн",
     "fullname": "Княжество Лихтенштейн",
     "english": "Liechtenstein",
     "capital": "Вадуц",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LI",
     "mok": "LIE",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Мальта",
     "fullname": "Республика Мальта",
     "english": "Malta",
     "capital": "Валлетта",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MT",
     "mok": "MLT",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Польша",
     "fullname": "Республика Польша",
     "english": "Poland",
     "capital": "Варшава",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PL",
     "mok": "POL",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Ватикан",
     "fullname": " ",
     "english": "Holy See (Vatican City State)",
     "capital": "Ватикан",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "VA",
     "mok": "VAT",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Австрия",
     "fullname": "Австрийская Республика",
     "english": "Austria",
     "capital": "Вена",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AT",
     "mok": "AUT",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Литва",
     "fullname": "Литовская Республика",
     "english": "Lithuania",
     "capital": "Вильнюс",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LT",
     "mok": "LTU",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Ирландия",
     "fullname": " ",
     "english": "Ireland",
     "capital": "Дублин",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "IE",
     "mok": "IRL",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Хорватия",
     "fullname": "Республика Хорватия",
     "english": "Croatia",
     "capital": "Загреб",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "HR",
     "mok": "HRV",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Украина",
     "fullname": " ",
     "english": "Ukraine",
     "capital": "Киев",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "UA",
     "mok": "UKR",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Молдавия",
     "fullname": "Республика Молдова",
     "english": "Moldova",
     "capital": "Кининёв",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MD",
     "mok": "MDA",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Дания",
     "fullname": "Королевство Дания",
     "english": "Denmark",
     "capital": "Копенгаген",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "DK",
     "mok": "DNK",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Португалия",
     "fullname": "Португальская Республика",
     "english": "Portugal",
     "capital": "Лиссабон",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PT",
     "mok": "PRT",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Великобритания",
     "fullname": "Соединенное Королевство Великобритании и Северной Ирландии",
     "english": "United Kingdom",
     "capital": "Лондон",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GB",
     "mok": "GBR",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Словения",
     "fullname": "Республика Словения",
     "english": "Slovenia",
     "capital": "Любляна",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SI",
     "mok": "SVN",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Люксембург",
     "fullname": "Великое Герцогство Люксембург",
     "english": "Luxembourg",
     "capital": "Люксембург",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LU",
     "mok": "LUX",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Испания",
     "fullname": "Королевство Испания",
     "english": "Spain",
     "capital": "Мадрид",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ES",
     "mok": "ESP",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Беларусь",
     "fullname": "Республика Беларусь",
     "english": "Belarus",
     "capital": "Минск",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BY",
     "mok": "BLR",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Монако",
     "fullname": "Княжество Монако",
     "english": "Monaco",
     "capital": "Монако",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MC",
     "mok": "MCO",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Россия",
     "fullname": "Российская Федерация",
     "english": "Russian Federation",
     "capital": "Москва",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "RU",
     "mok": "RUS",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Норвегия",
     "fullname": "Королевство Норвегия",
     "english": "Norway",
     "capital": "Осло",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NO",
     "mok": "NOR",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Франция",
     "fullname": "Французская Республика",
     "english": "France",
     "capital": "Париж",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "FR",
     "mok": "FRA",
     "location": "Европа",
-    "location-precise": "Западная Европа"
+    "locationPrecise": "Западная Европа"
   },
   {
     "name": "Черногория",
     "fullname": "Республика Черногория",
     "english": "Montenegro",
     "capital": "Подгорица",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ME",
     "mok": "MNE",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Чехия",
     "fullname": "Чешская Республика",
     "english": "Czech Republic",
     "capital": "Прага",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CZ",
     "mok": "CZE",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Исландия",
     "fullname": "Республика Исландия",
     "english": "Iceland",
     "capital": "Рейкьявик",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "IS",
     "mok": "ISL",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Латвия",
     "fullname": "Латвийская Республика",
     "english": "Latvia",
     "capital": "Рига",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LV",
     "mok": "LVA",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Италия",
     "fullname": "Итальянская Республика",
     "english": "Italy",
     "capital": "Рим",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "IT",
     "mok": "ITA",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Сан-Марино",
     "fullname": "Республика Сан-Марино",
     "english": "San Marino",
     "capital": "Сан-Марино",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SM",
     "mok": "SMR",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Босния и\nГерцеговина",
     "fullname": " ",
     "english": "Bosnia and Herzegovina",
     "capital": "Сараево",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BA",
     "mok": "BIH",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Македония",
     "fullname": "Республика Македония",
     "english": "Macedonia, The Former Yugoslav Republic Of",
     "capital": "Скопье",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MK",
     "mok": "MKD",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Болгария",
     "fullname": "Республика Болгария",
     "english": "Bulgaria",
     "capital": "София",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BG",
     "mok": "BGR",
     "location": "Европа",
-    "location-precise": "Восточная Европа"
+    "locationPrecise": "Восточная Европа"
   },
   {
     "name": "Швеция",
     "fullname": "Королевство Швеция",
     "english": "Sweden",
     "capital": "Стокгольм",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SE",
     "mok": "SWE",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Эстония",
     "fullname": "Эстонская Республика",
     "english": "Estonia",
     "capital": "Таллин",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "EE",
     "mok": "EST",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "Албания",
     "fullname": "Республика Албания",
     "english": "Albania",
     "capital": "Тирана",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AL",
     "mok": "ALB",
     "location": "Европа",
-    "location-precise": "Южная Европа"
+    "locationPrecise": "Южная Европа"
   },
   {
     "name": "Финляндия",
     "fullname": "Финляндская Республика",
     "english": "Finland",
     "capital": "Хельсинки",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "FI",
     "mok": "FIN",
     "location": "Европа",
-    "location-precise": "Северная Европа"
+    "locationPrecise": "Северная Европа"
   },
   {
     "name": "ОАЭ",
     "fullname": "Объединенные Арабские Эмираты",
     "english": "United Arab Emirates",
     "capital": "Абу-Даби",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AE",
     "mok": "ARE",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Иордания",
     "fullname": "Иорданское Хашимитское Королевство",
     "english": "Jordan",
     "capital": "Амман",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "JO",
     "mok": "JOR",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Турция",
     "fullname": "Турецкая Республика",
     "english": "Turkey",
     "capital": "Анкара",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TR",
     "mok": "TUR",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Казахстан",
     "fullname": "Республика Казахстан",
     "english": "Kazakhstan",
     "capital": "Астана",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KZ",
     "mok": "KAZ",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Туркмения",
     "fullname": "Туркменистан",
     "english": "Turkmenistan",
     "capital": "Ашхабад",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TM",
     "mok": "TKM",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Ирак",
     "fullname": "Республика Ирак",
     "english": "Iraq",
     "capital": "Багдад",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "IQ",
     "mok": "IRQ",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Азербайджан",
     "fullname": "Республика Азербайджан",
     "english": "Azerbaijan",
     "capital": "Баку",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AZ",
     "mok": "AZE",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Таиланд",
     "fullname": "Королевство Таиланд",
     "english": "Thailand",
     "capital": "Бангкок",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TH",
     "mok": "THA",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Бруней",
     "fullname": "Бруней-Даруссалам",
     "english": "Brunei Darussalam",
     "capital": "Бандар-Сери-Бегаван",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BN",
     "mok": "BRN",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Ливан",
     "fullname": "Ливанская Республика",
     "english": "Lebanon",
     "capital": "Бейрут",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LB",
     "mok": "LBN",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Киргизия",
     "fullname": "Киргизская Республика",
     "english": "Kyrgyzstan",
     "capital": "Бишкек",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KG",
     "mok": "KGZ",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Лаос",
     "fullname": "Лаосская Народно-Демократическая Республика",
     "english": "Lao People's Democratic Republic",
     "capital": "Вьентьян",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LA",
     "mok": "LAO",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Бангладеш",
     "fullname": "Народная Республика Бангладеш",
     "english": "Bangladesh",
     "capital": "Дакка",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BD",
     "mok": "BGD",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Сирия",
     "fullname": "Сирийская Арабская Республика",
     "english": "Syrian Arab Republic",
     "capital": "Дамаск",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SY",
     "mok": "SYR",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Индия",
     "fullname": "Республика Индия",
     "english": "India",
     "capital": "Дели",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "IN",
     "mok": "IND",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Индонезия",
     "fullname": "Республика Индонезия",
     "english": "Indonesia",
     "capital": "Джакарта",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ID",
     "mok": "IDN",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Восточный\nТимор",
     "fullname": "Демократическая Республика Тимор-Лесте",
     "english": "Timor-Leste",
     "capital": "Дили",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TL",
     "mok": "TLS",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Катар",
     "fullname": "Государство Катар",
     "english": "Qatar",
     "capital": "Доха",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "QA",
     "mok": "QAT",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Таджикистан",
     "fullname": "Республика Таджикистан",
     "english": "Tajikistan",
     "capital": "Душанбе",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TJ",
     "mok": "TJK",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Армения",
     "fullname": "Республика Армения",
     "english": "Armenia",
     "capital": "Ереван",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AM",
     "mok": "ARM",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Израиль",
     "fullname": "Государство Израиль",
     "english": "Israel",
     "capital": "Иерусалим",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "IL",
     "mok": "ISR",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Пакистан",
     "fullname": "Исламская Республика Пакистан",
     "english": "Pakistan",
     "capital": "Исламабад",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PK",
     "mok": "PAK",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Афганистан",
     "fullname": "Переходное Исламское Государство Афганистан",
     "english": "Afghanistan",
     "capital": "Кабул",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AF",
     "mok": "AFG",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Непал",
     "fullname": "Федеративная Демократическая Республика Непал",
     "english": "Nepal",
     "capital": "Катманду",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NP",
     "mok": "NPL",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Малайзия",
     "fullname": " ",
     "english": "Malaysia",
     "capital": "Куала-Лумпур",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MY",
     "mok": "MYS",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Мальдивы",
     "fullname": "Мальдивская Республика",
     "english": "Maldives",
     "capital": "Мале",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MV",
     "mok": "MDV",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Бахрейн",
     "fullname": "Королевство Бахрейн",
     "english": "Bahrain",
     "capital": "Манама",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BH",
     "mok": "BHR",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Филиппины",
     "fullname": "Республика Филиппины",
     "english": "Philippines",
     "capital": "Манила",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PH",
     "mok": "PHL",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Оман",
     "fullname": "Султанат Оман",
     "english": "Oman",
     "capital": "Маскат",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "OM",
     "mok": "OMN",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Мьянма",
     "fullname": "Союз Мьянма",
     "english": "Myanmar",
     "capital": "Нейпьидо",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MM",
     "mok": "MMR",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Кипр",
     "fullname": "Республика Кипр",
     "english": "Cyprus",
     "capital": "Никосия",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CY",
     "mok": "CYP",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Китай",
     "fullname": "Китайская Народная Республика",
     "english": "China",
     "capital": "Пекин",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CN",
     "mok": "CHN",
     "location": "Азия",
-    "location-precise": "Восточная Азия"
+    "locationPrecise": "Восточная Азия"
   },
   {
     "name": "Камбоджа",
     "fullname": "Королевство Камбоджа",
     "english": "Cambodia",
     "capital": "Пномпень",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KH",
     "mok": "KHM",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "КНДР",
     "fullname": "Корейская Народно-Демократическая Республика",
     "english": "Korea, Democratic People's republic of",
     "capital": "Пхеньян",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KP",
     "mok": "PRK",
     "location": "Азия",
-    "location-precise": "Восточная Азия"
+    "locationPrecise": "Восточная Азия"
   },
   {
     "name": "Йемен",
     "fullname": "Йеменская Республика",
     "english": "Yemen",
     "capital": "Сана",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "YE",
     "mok": "YEM",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Республика\nКорея",
     "fullname": "Республика Корея",
     "english": "Korea, Republic of",
     "capital": "Сеул",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KR",
     "mok": "KOR",
     "location": "Азия",
-    "location-precise": "Восточная Азия"
+    "locationPrecise": "Восточная Азия"
   },
   {
     "name": "Сингапур",
     "fullname": "Республика Сингапур",
     "english": "Singapore",
     "capital": "Сингапур",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SG",
     "mok": "SGP",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Узбекистан",
     "fullname": "Республика Узбекистан",
     "english": "Uzbekistan",
     "capital": "Ташкент",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "UZ",
     "mok": "UZB",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Грузия",
     "fullname": " ",
     "english": "Georgia",
     "capital": "Тбилиси",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GE",
     "mok": "GEO",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Иран",
     "fullname": "Исламская Республика Иран",
     "english": "Iran, Islamic Republic of",
     "capital": "Тегеран",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "IR",
     "mok": "IRN",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Япония",
     "fullname": " ",
     "english": "Japan",
     "capital": "Токио",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "JP",
     "mok": "JPN",
     "location": "Азия",
-    "location-precise": "Восточная Азия"
+    "locationPrecise": "Восточная Азия"
   },
   {
     "name": "Бутан",
     "fullname": "Королевство Бутан",
     "english": "Bhutan",
     "capital": "Тхимпху",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BT",
     "mok": "BTN",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Монголия",
     "fullname": " ",
     "english": "Mongolia",
     "capital": "Улан-Батор",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MN",
     "mok": "MNG",
     "location": "Азия",
-    "location-precise": "Восточная Азия"
+    "locationPrecise": "Восточная Азия"
   },
   {
     "name": "Вьетнам",
     "fullname": "Социалистическая Республика Вьетнам",
     "english": "Vietnam",
     "capital": "Ханой",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "VN",
     "mok": "VNM",
     "location": "Азия",
-    "location-precise": "Юго-Восточная Азия"
+    "locationPrecise": "Юго-Восточная Азия"
   },
   {
     "name": "Шри-Ланка",
     "fullname": "Демократическая Социалистическая Республика Шри-Ланка",
     "english": "Sri Lanka",
     "capital": "Шри-Джаяварденепура-Котте",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LK",
     "mok": "LKA",
     "location": "Азия",
-    "location-precise": "Южная часть Центральной Азии"
+    "locationPrecise": "Южная часть Центральной Азии"
   },
   {
     "name": "Кувейт",
     "fullname": "Государство Кувейт",
     "english": "Kuwait",
     "capital": "Эль-Кувейт",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KW",
     "mok": "KWT",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Саудовская\nАравия",
     "fullname": "Королевство Саудовская Аравия",
     "english": "Saudi Arabia",
     "capital": "Эр-Рияд",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SA",
     "mok": "SAU",
     "location": "Азия",
-    "location-precise": "Западная Азия"
+    "locationPrecise": "Западная Азия"
   },
   {
     "name": "Нигерия",
     "fullname": "Федеративная Республика Нигерия",
     "english": "Nigeria",
     "capital": "Абуджа",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NG",
     "mok": "NGA",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Эфиопия",
     "fullname": "Федеративная Демократическая Республика Эфиопия",
     "english": "Ethiopia",
     "capital": "Аддис-Абеба",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ET",
     "mok": "ETH",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Гана",
     "fullname": "Республика Гана",
     "english": "Ghana",
     "capital": "Аккра",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GH",
     "mok": "GHA",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Алжир",
     "fullname": "Алжирская Народная Демократическая Республика",
     "english": "Algeria",
     "capital": "Алжир",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "DZ",
     "mok": "DZA",
     "location": "Африка",
-    "location-precise": "Северная Африка"
+    "locationPrecise": "Северная Африка"
   },
   {
     "name": "Мадагаскар",
     "fullname": "Республика Мадагаскар",
     "english": "Madagascar",
     "capital": "Антананариву",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MG",
     "mok": "MDG",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Эритрея",
     "fullname": " ",
     "english": "Eritrea",
     "capital": "Асмэра",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ER",
     "mok": "ERI",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Мали",
     "fullname": "Республика Мали",
     "english": "Mali",
     "capital": "Бамако",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ML",
     "mok": "MLI",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "ЦАР",
     "fullname": "Центрально-Африканская Республика",
     "english": "Central African Republic",
     "capital": "Банги",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CF",
     "mok": "CAF",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Гамбия",
     "fullname": "Республика Гамбия",
     "english": "Gambia",
     "capital": "Банжул",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GM",
     "mok": "GMB",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Гвинея",
     "fullname": "Гвинейская Республика",
     "english": "Guinea",
     "capital": "Конакри",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GN",
     "mok": "GIN",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Гвинея-Бисау",
     "fullname": "Республика Гвинея-Бисау",
     "english": "Guinea-Bissau",
     "capital": "Бисау",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GW",
     "mok": "GNB",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Конго",
     "fullname": "Республика Конго",
     "english": "Congo",
     "capital": "Браззавиль",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CG",
     "mok": "COG",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Конго,\nДем. Респ.",
     "fullname": "Демократическая Республика Конго",
     "english": "Congo, Democratic Republic of the",
     "capital": "Киншаса",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CD",
     "mok": "COD",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Бурунди",
     "fullname": "Республика Бурунди",
     "english": "Burundi",
     "capital": "Бужумбура",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BI",
     "mok": "BDI",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Сейшелы",
     "fullname": "Республика Сейшелы",
     "english": "Seychelles",
     "capital": "Виктория",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SC",
     "mok": "SYC",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Намибия",
     "fullname": "Республика Намибия",
     "english": "Namibia",
     "capital": "Виндхук",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NA",
     "mok": "NAM",
     "location": "Африка",
-    "location-precise": "Южная часть Африки"
+    "locationPrecise": "Южная часть Африки"
   },
   {
     "name": "Ботсвана",
     "fullname": "Республика Ботсвана",
     "english": "Botswana",
     "capital": "Габороне",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BW",
     "mok": "BWA",
     "location": "Африка",
-    "location-precise": "Южная часть Африки"
+    "locationPrecise": "Южная часть Африки"
   },
   {
     "name": "Сенегал",
     "fullname": "Республика Сенегал",
     "english": "Senegal",
     "capital": "Дакар",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SN",
     "mok": "SEN",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Джибути",
     "fullname": "Республика Джибути",
     "english": "Djibouti",
     "capital": "Джибути",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "DJ",
     "mok": "DJI",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Южный Судан",
     "fullname": " ",
     "english": "South Sudan",
     "capital": "Джуба",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SS",
     "mok": "SSD",
     "location": "Африка",
-    "location-precise": "Северная Африка"
+    "locationPrecise": "Северная Африка"
   },
   {
     "name": "Танзания",
     "fullname": "Объединенная Республика Танзания",
     "english": "Tanzania, United Republic Of",
     "capital": "Додома",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TZ",
     "mok": "TZA",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Египет",
     "fullname": "Арабская Республика Египет",
     "english": "Egypt",
     "capital": "Каир",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "EG",
     "mok": "EGY",
     "location": "Африка",
-    "location-precise": "Северная Африка"
+    "locationPrecise": "Северная Африка"
   },
   {
     "name": "Уганда",
     "fullname": "Республика Уганда",
     "english": "Uganda",
     "capital": "Кампала",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "UG",
     "mok": "UGA",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Руанда",
     "fullname": "Руандийская Республика",
     "english": "Rwanda",
     "capital": "Кигали",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "RW",
     "mok": "RWA",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Габон",
     "fullname": "Габонская Республика",
     "english": "Gabon",
     "capital": "Либревиль",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GA",
     "mok": "GAB",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Малави",
     "fullname": "Республика Малави",
     "english": "Malawi",
     "capital": "Лилонгве",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MW",
     "mok": "MWI",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Того",
     "fullname": "Тоголезская Республика",
     "english": "Togo",
     "capital": "Ломе",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TG",
     "mok": "TGO",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Ангола",
     "fullname": "Республика Ангола",
     "english": "Angola",
     "capital": "Луанда",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AO",
     "mok": "AGO",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Замбия",
     "fullname": "Республика Замбия",
     "english": "Zambia",
     "capital": "Лусака",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ZM",
     "mok": "ZMB",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Экваториальная\nГвинея",
     "fullname": "Республика Экваториальная Гвинея",
     "english": "Equatorial Guinea",
     "capital": "Малабо",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GQ",
     "mok": "GNQ",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Мозамбик",
     "fullname": "Республика Мозамбик",
     "english": "Mozambique",
     "capital": "Мапуту",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MZ",
     "mok": "MOZ",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Лесото",
     "fullname": "Королевство Лесото",
     "english": "Lesotho",
     "capital": "Масеру",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LS",
     "mok": "LSO",
     "location": "Африка",
-    "location-precise": "Южная часть Африки"
+    "locationPrecise": "Южная часть Африки"
   },
   {
     "name": "Свазиленд",
     "fullname": "Королевство Свазиленд",
     "english": "Swaziland",
     "capital": "Мбабане",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SZ",
     "mok": "SWZ",
     "location": "Африка",
-    "location-precise": "Южная часть Африки"
+    "locationPrecise": "Южная часть Африки"
   },
   {
     "name": "Сомали",
     "fullname": "Сомалийская Республика",
     "english": "Somalia",
     "capital": "Могадишо",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SO",
     "mok": "SOM",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Либерия",
     "fullname": "Республика Либерия",
     "english": "Liberia",
     "capital": "Монровия",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LR",
     "mok": "LBR",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Коморы",
     "fullname": "Союз Коморы",
     "english": "Comoros",
     "capital": "Морони",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KM",
     "mok": "COM",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Кения",
     "fullname": "Республика Кения",
     "english": "Kenya",
     "capital": "Найроби",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KE",
     "mok": "KEN",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Чад",
     "fullname": "Республика Чад",
     "english": "Chad",
     "capital": "Нджамена",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TD",
     "mok": "TCD",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Нигер",
     "fullname": "Республика Нигер",
     "english": "Niger",
     "capital": "Ниамей",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NE",
     "mok": "NER",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Мавритания",
     "fullname": "Исламская Республика Мавритания",
     "english": "Mauritania",
     "capital": "Нуакшот",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MR",
     "mok": "MRT",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Маврикий",
     "fullname": "Республика Маврикий",
     "english": "Mauritius",
     "capital": "Порт-Луи",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MU",
     "mok": "MUS",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Бенин",
     "fullname": "Республика Бенин",
     "english": "Benin",
     "capital": "Порто-Ново",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BJ",
     "mok": "BEN",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Кабо-Верде",
     "fullname": "Республика Кабо-Верде",
     "english": "Cape Verde",
     "capital": "Прая",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CV",
     "mok": "CPV",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "ЮАР",
     "fullname": "Южно-Африканская Республика",
     "english": "South Africa",
     "capital": "Претория",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ZA",
     "mok": "ZAF",
     "location": "Африка",
-    "location-precise": "Южная часть Африки"
+    "locationPrecise": "Южная часть Африки"
   },
   {
     "name": "Марокко",
     "fullname": "Королевство Марокко",
     "english": "Morocco",
     "capital": "Рабат",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MA",
     "mok": "MAR",
     "location": "Африка",
-    "location-precise": "Северная Африка"
+    "locationPrecise": "Северная Африка"
   },
   {
     "name": "Сан-Томе и\nПринсипи",
     "fullname": "Демократическая Республика Сан-Томе и Принсипи",
     "english": "Sao Tome and Principe",
     "capital": "Сан-Томе",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ST",
     "mok": "STP",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Ливия",
     "fullname": "",
     "english": "",
     "capital": "Триполи",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LY",
     "mok": "LBA",
 "location": "Африка",
-    "location-precise": "Северная Африка"
+    "locationPrecise": "Северная Африка"
   },
   {
     "name": "Тунис",
     "fullname": "Тунисская Республика",
     "english": "Tunisia",
     "capital": "Тунис",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TN",
     "mok": "TUN",
     "location": "Африка",
-    "location-precise": "Северная Африка"
+    "locationPrecise": "Северная Африка"
   },
   {
     "name": "Буркина-Фасо",
     "fullname": " ",
     "english": "Burkina Faso",
     "capital": "Уагадугу",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BF",
     "mok": "BFA",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Сьерра-Леоне",
     "fullname": "Республика Сьерра-Леоне",
     "english": "Sierra Leone",
     "capital": "Фритаун",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SL",
     "mok": "SLE",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Зимбабве",
     "fullname": "Республика Зимбабве",
     "english": "Zimbabwe",
     "capital": "Хараре",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "ZW",
     "mok": "ZWE",
     "location": "Африка",
-    "location-precise": "Восточная Африка"
+    "locationPrecise": "Восточная Африка"
   },
   {
     "name": "Судан",
     "fullname": "Республика Судан",
     "english": "Sudan",
     "capital": "Хартум",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SD",
     "mok": "SDN",
     "location": "Африка",
-    "location-precise": "Северная Африка"
+    "locationPrecise": "Северная Африка"
   },
   {
     "name": "Кот д'Ивуар",
     "fullname": "Республика Кот д'Ивуар",
     "english": "Cote d'Ivoire",
     "capital": "Ямусукро",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CI",
     "mok": "CIV",
     "location": "Африка",
-    "location-precise": "Западная Африка"
+    "locationPrecise": "Западная Африка"
   },
   {
     "name": "Камерун",
     "fullname": "Республика Камерун",
     "english": "Cameroon",
     "capital": "Яунде",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CM",
     "mok": "CMR",
     "location": "Африка",
-    "location-precise": "Центральная Африка"
+    "locationPrecise": "Центральная Африка"
   },
   {
     "name": "Парагвай",
     "fullname": "Республика Парагвай",
     "english": "Paraguay",
     "capital": "Асунсьон",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PY",
     "mok": "PRY",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Сент-Китс\nи Невис",
     "fullname": " ",
     "english": "Saint Kitts and Nevis",
     "capital": "Бастер",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KN",
     "mok": "KNA",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Белиз",
     "fullname": " ",
     "english": "Belize",
     "capital": "Бельмопан",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BZ",
     "mok": "BLZ",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Колумбия",
     "fullname": "Республика Колумбия",
     "english": "Colombia",
     "capital": "Богота",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CO",
     "mok": "COL",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Бразилия",
     "fullname": "Федеративная Республика Бразилия",
     "english": "Brazil",
     "capital": "Бразилиа",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BR",
     "mok": "BRA",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Барбадос",
     "fullname": " ",
     "english": "Barbados",
     "capital": "Бриджтаун",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BB",
     "mok": "BRB",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Аргентина",
     "fullname": "Аргентинская Республика",
     "english": "Argentina",
     "capital": "Буэнос-Айрес",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AR",
     "mok": "ARG",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "США",
     "fullname": "Соединенные Штаты Америки",
     "english": "United States",
     "capital": "Вашингтон",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "US",
     "mok": "USA",
     "location": "Америка",
-    "location-precise": "Северная Америка"
+    "locationPrecise": "Северная Америка"
   },
   {
     "name": "Куба",
     "fullname": "Республика Куба",
     "english": "Cuba",
     "capital": "Гавана",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CU",
     "mok": "CUB",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Гватемала",
     "fullname": "Республика Гватемала",
     "english": "Guatemala",
     "capital": "Гватемала",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GT",
     "mok": "GTM",
     "location": "Америка",
-    "location-precise": "Центральная Америка"
+    "locationPrecise": "Центральная Америка"
   },
   {
     "name": "Гайана",
     "fullname": "Республика Гайана",
     "english": "Guyana",
     "capital": "Джорджтаун",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GY",
     "mok": "GUY",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Венесуэла",
     "fullname": "Боливарийская Республика Венесуэла",
     "english": "Venezuela",
     "capital": "Каракас",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "VE",
     "mok": "VEN",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Сент-Люсия",
     "fullname": " ",
     "english": "Saint Lucia",
     "capital": "Кастри",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "LC",
     "mok": "LCA",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Сент-Винсент\nи Гренадины",
     "fullname": " ",
     "english": "Saint Vincent and the Grenadines",
     "capital": "Кингстаун",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "VC",
     "mok": "VCT",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Ямайка",
     "fullname": " ",
     "english": "Jamaica",
     "capital": "Кингстон",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "JM",
     "mok": "JAM",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Эквадор",
     "fullname": "Республика Эквадор",
     "english": "Ecuador",
     "capital": "Кито",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "EC",
     "mok": "ECU",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Перу",
     "fullname": "Республика Перу",
     "english": "Peru",
     "capital": "Лима",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PE",
     "mok": "PER",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Никарагуа",
     "fullname": "Республика Никарагуа",
     "english": "Nicaragua",
     "capital": "Манагуа",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NI",
     "mok": "NIC",
     "location": "Америка",
-    "location-precise": "Центральная Америка"
+    "locationPrecise": "Центральная Америка"
   },
   {
     "name": "Мексика",
     "fullname": "Мексиканские Соединенные Штаты",
     "english": "Mexico",
     "capital": "Мехико",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MX",
     "mok": "MEX",
     "location": "Америка",
-    "location-precise": "Центральная Америка"
+    "locationPrecise": "Центральная Америка"
   },
   {
     "name": "Уругвай",
     "fullname": "Восточная Республика Уругвай",
     "english": "Uruguay",
     "capital": "Монтевидео",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "UY",
     "mok": "URY",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Багамы",
     "fullname": "Содружество Багамы",
     "english": "Bahamas",
     "capital": "Нассау",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BS",
     "mok": "BHS",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Канада",
     "fullname": " ",
     "english": "Canada",
     "capital": "Оттава",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CA",
     "mok": "CAN",
     "location": "Америка",
-    "location-precise": "Северная Америка"
+    "locationPrecise": "Северная Америка"
   },
   {
     "name": "Панама",
     "fullname": "Республика Панама",
     "english": "Panama",
     "capital": "Панама",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PA",
     "mok": "PAN",
     "location": "Америка",
-    "location-precise": "Центральная Америка"
+    "locationPrecise": "Центральная Америка"
   },
   {
     "name": "Суринам",
     "fullname": "Республика Суринам",
     "english": "Suriname",
     "capital": "Парамарибо",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SR",
     "mok": "SUR",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Гаити",
     "fullname": "Республика Гаити",
     "english": "Haiti",
     "capital": "Порт-о-Пренс",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "HT",
     "mok": "HTI",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Тринидад\nи Тобаго",
     "fullname": "Республика Тринидад и Тобаго",
     "english": "Trinidad and Tobago",
     "capital": "Порт-оф-Спейн",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TT",
     "mok": "TTO",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Доминика",
     "fullname": "Содружество Доминики",
     "english": "Dominica",
     "capital": "Розо",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "DM",
     "mok": "DMA",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Сальвадор",
     "fullname": "Республика Эль-Сальвадор",
     "english": "El Salvador",
     "capital": "Сан-Сальвадор",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SV",
     "mok": "SLV",
     "location": "Америка",
-    "location-precise": "Центральная Америка"
+    "locationPrecise": "Центральная Америка"
   },
   {
     "name": "Коста-Рика",
     "fullname": "Республика Коста-Рика",
     "english": "Costa Rica",
     "capital": "Сан-Хосе",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CR",
     "mok": "CRI",
     "location": "Америка",
-    "location-precise": "Центральная Америка"
+    "locationPrecise": "Центральная Америка"
   },
   {
     "name": "Доминиканская\nРеспублика",
     "fullname": " ",
     "english": "Dominican Republic",
     "capital": "Санто-Доминго",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "DO",
     "mok": "DOM",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Чили",
     "fullname": "Республика Чили",
     "english": "Chile",
     "capital": "Сантьяго",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "CL",
     "mok": "CHL",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Антигуа\nи Барбуда",
     "fullname": " ",
     "english": "Antigua and Barbuda",
     "capital": "Сент-Джонс",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AG",
     "mok": "ATG",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Гренада",
     "fullname": " ",
     "english": "Grenada",
     "capital": "Сент-Джорджес",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "GD",
     "mok": "GRD",
     "location": "Америка",
-    "location-precise": "Карибский бассейн"
+    "locationPrecise": "Карибский бассейн"
   },
   {
     "name": "Боливия",
     "fullname": "Многонациональное Государство Боливия",
     "english": "Bolivia, plurinational state of",
     "capital": "Сукре",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "BO",
     "mok": "BOL",
     "location": "Америка",
-    "location-precise": "Южная Америка"
+    "locationPrecise": "Южная Америка"
   },
   {
     "name": "Гондурас",
     "fullname": "Республика Гондурас",
     "english": "Honduras",
     "capital": "Тегусигальпа",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "HN",
     "mok": "HND",
     "location": "Америка",
-    "location-precise": "Центральная Америка"
+    "locationPrecise": "Центральная Америка"
   },
   {
     "name": "Самоа",
     "fullname": "Независимое Государство Самоа",
     "english": "Samoa",
     "capital": "Апиа",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "WS",
     "mok": "WSM",
     "location": "Океания",
-    "location-precise": "Полинезия"
+    "locationPrecise": "Полинезия"
   },
   {
     "name": "Новая Зеландия",
     "fullname": " ",
     "english": "New Zealand",
     "capital": "Веллингтон",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NZ",
     "mok": "NZL",
     "location": "Океания",
-    "location-precise": "Австралия и Новая Зеландия"
+    "locationPrecise": "Австралия и Новая Зеландия"
   },
   {
     "name": "Австралия",
     "fullname": " ",
     "english": "Australia",
     "capital": "Канберра",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "AU",
     "mok": "AUS",
     "location": "Океания",
-    "location-precise": "Австралия и Новая Зеландия"
+    "locationPrecise": "Австралия и Новая Зеландия"
   },
   {
     "name": "Маршалловы\nострова",
     "fullname": "Республика Маршалловы острова",
     "english": "Marshall Islands",
     "capital": "Маджуро",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "MH",
     "mok": "MHL",
     "location": "Океания",
-    "location-precise": "Микронезия"
+    "locationPrecise": "Микронезия"
   },
   {
     "name": "Палау",
     "fullname": "Республика Палау",
     "english": "Palau",
     "capital": "Нгерулмуд",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PW",
     "mok": "PLW",
     "location": "Океания",
-    "location-precise": "Микронезия"
+    "locationPrecise": "Микронезия"
   },
   {
     "name": "Тонга",
     "fullname": "Королевство Тонга",
     "english": "Tonga",
     "capital": "Нукуалофа",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TO",
     "mok": "TON",
     "location": "Океания",
-    "location-precise": "Полинезия"
+    "locationPrecise": "Полинезия"
   },
   {
     "name": "Микронезия",
     "fullname": "Федеративные штаты Микронезии",
     "english": "Micronesia, Federated States of",
     "capital": "Паликир",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "FM",
     "mok": "FSM",
     "location": "Океания",
-    "location-precise": "Микронезия"
+    "locationPrecise": "Микронезия"
   },
   {
     "name": "Вануату",
     "fullname": "Республика Вануату",
     "english": "Vanuatu",
     "capital": "Порт-Вила",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "VU",
     "mok": "VUT",
     "location": "Океания",
-    "location-precise": "Меланезия"
+    "locationPrecise": "Меланезия"
   },
   {
     "name": "Папуа-Новая\nГвинея",
     "fullname": " ",
     "english": "Papua New Guinea",
     "capital": "Порт-Морсби",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "PG",
     "mok": "PNG",
     "location": "Океания",
-    "location-precise": "Меланезия"
+    "locationPrecise": "Меланезия"
   },
   {
     "name": "Фиджи",
     "fullname": "Республика островов Фиджи",
     "english": "Fiji",
     "capital": "Сува",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "FJ",
     "mok": "FJI",
     "location": "Океания",
-    "location-precise": "Меланезия"
+    "locationPrecise": "Меланезия"
   },
   {
     "name": "Тувалу",
     "fullname": " ",
     "english": "Tuvalu",
     "capital": "Фунафути",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "TV",
     "mok": "TUV",
     "location": "Океания",
-    "location-precise": "Полинезия"
+    "locationPrecise": "Полинезия"
   },
   {
     "name": "Соломоновы\nострова",
     "fullname": " ",
     "english": "Solomon Islands",
     "capital": "Хониара",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "SB",
     "mok": "SLB",
     "location": "Океания",
-    "location-precise": "Меланезия"
+    "locationPrecise": "Меланезия"
   },
   {
     "name": "Кирибати",
     "fullname": "Республика Кирибати",
     "english": "Kiribati",
     "capital": "Южная Тарава",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "KI",
     "mok": "KIR",
     "location": "Океания",
-    "location-precise": "Микронезия"
+    "locationPrecise": "Микронезия"
   },
   {
     "name": "Науру",
     "fullname": "Республика Науру",
     "english": "Nauru",
     "capital": "Офиц. столицы нет",
-    "capital-en": "",
+    "capitalEn": "",
     "iso": "NR",
     "mok": "NRU",
     "location": "Океания",
-    "location-precise": "Микронезия"
+    "locationPrecise": "Микронезия"
   },
 ];
