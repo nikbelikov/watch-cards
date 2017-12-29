@@ -9,6 +9,12 @@ const params = [
   ['small', 'big'],
   ['top', 'bottom'],
   ['#ffea00', '#00d8ff', '#00fe1e', '#ff782e', '#ff5ace'],
+  [
+    ['Европа', 'Азия', 'Америка', 'Африка', 'Океания'],
+    ['Европа', 'Азия', 'Америка', 'Африка'],
+    ['Европа', 'Азия', 'Америка', 'Океания'],
+    ['Европа', 'Азия', 'Америка'],
+  ],
 ];
 
 const config = helpers.generateCountriesConfig(params);
@@ -23,31 +29,32 @@ config.forEach((config) => {
   countries.forEach((country) => {
     const { font, fontLarge, mainColor } = watchParams;
     const {name, capital, iso} = country;
-    const watch = config.watch;
+    const { watch, position, color, countriesSet } = config;
     const docSize = helpers.getDocSize(watch);
-    const position = config.position;
-    const color = config.color;
     const isOneLine = helpers.isOneLine(name);
     const top = helpers.getTopPosition(watch, position, isOneLine);
-    const folderName = `${watch}_${position}_${color}`;
+    const countriesSetName = helpers.getCountriesSetName(countriesSet);
+    const folderName = `${watch}_${position}_${color}_${countriesSetName}`;
     const folderLocation = `dist/${folderName}`;
 
     if (!fs.existsSync(folderLocation)) {
       fs.mkdirSync(folderLocation);
     }
 
-    const image = gm(docSize.width, docSize.height, 'black')
-      .fill(config.color)
-      .font(font, fontLarge.value)
-      .drawText(0, top.countryPosition, name.toUpperCase())
-      .fontSize(helpers.getCapitalFontSize(capital))
-      .fill(mainColor)
-      .drawText(0, top.capitalPosition, capital.toUpperCase());
+    if (countriesSet.indexOf(country.location) !== -1) {
+      const image = gm(docSize.width, docSize.height, 'black')
+        .fill(config.color)
+        .font(font, fontLarge.value)
+        .drawText(0, top.countryPosition, name.toUpperCase())
+        .fontSize(helpers.getCapitalFontSize(capital))
+        .fill(mainColor)
+        .drawText(0, top.capitalPosition, capital.toUpperCase());
 
-    images.push({
-      gmImage: image,
-      path: `${folderLocation}/${iso.toLowerCase()}.png`,
-    });
+      images.push({
+        gmImage: image,
+        path: `${folderLocation}/${iso.toLowerCase()}.png`,
+      });
+    }
   });
 });
 

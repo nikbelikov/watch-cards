@@ -1,3 +1,4 @@
+const _isEqual = require('lodash/isEqual');
 const watchParams = require('../config/watchParams');
 
 module.exports = {
@@ -64,15 +65,47 @@ module.exports = {
     for	(let counterWatch = 0; counterWatch < variants[0]; counterWatch += 1) {
       for	(let counterPosition = 0; counterPosition < variants[1]; counterPosition += 1) {
         for	(let counterColor = 0; counterColor < variants[2]; counterColor += 1) {
-          config.push({
-            watch: params[0][counterWatch],
-            position: params[1][counterPosition],
-            color: params[2][counterColor],
-          });
+          for	(let counterVariations = 0; counterVariations < variants[3]; counterVariations += 1) {
+            config.push({
+              watch: params[0][counterWatch],
+              position: params[1][counterPosition],
+              color: params[2][counterColor],
+              countriesSet: params[3][counterVariations],
+            });
+          }
         }
       }
     }
 
     return config;
   },
+
+  getCountriesSetName(countriesSet) {
+    const sets = [
+      {
+        id: 'all',
+        items: ['Европа', 'Азия', 'Америка', 'Африка', 'Океания'],
+      },
+      {
+        id: 'noOk',
+        items: ['Европа', 'Азия', 'Америка', 'Африка'],
+      },
+      {
+        id: 'noAf',
+        items: ['Европа', 'Азия', 'Америка', 'Океания'],
+      },
+      {
+        id: 'noBoth',
+        items: ['Европа', 'Азия', 'Америка'],
+      },
+    ];
+
+    for (let setIndex = 0; setIndex < sets.length; setIndex++) {
+      if (_isEqual(sets[setIndex].items, countriesSet)) {
+        return sets[setIndex].id;
+      }
+    }
+
+    return 'all';
+  }
 };
