@@ -12,6 +12,8 @@ export default class IndexPage extends Component {
     watch: ['small', 'big'][helpers.randomInteger(0, 1)],
     position: ['top', 'bottom'][helpers.randomInteger(0, 1)],
     color: ['ffea00', 'ffea00', '00d8ff', '00fe1e', 'ff782e', 'ff5ace'][helpers.randomInteger(0, 5)],
+    noAf: false,
+    noOk: false,
     loaded: false,
   };
 
@@ -66,7 +68,7 @@ export default class IndexPage extends Component {
   }
 
   renderParams() {
-    const { watch, position, translation, type, color, loaded } = this.state;
+    const { watch, position, color, noAf, noOk, loaded } = this.state;
 
     return (
       <div className={cn('params', {visible: loaded})}>
@@ -98,35 +100,50 @@ export default class IndexPage extends Component {
             внизу
           </li>
         </ul>
+        <ul className="params-list">
+          <li
+            className={cn({active: noAf})}
+            onClick={() => {this.setState({noAf: !this.state.noAf})}}
+          >
+            без Африки
+          </li>
+          <li
+            className={cn({active: noOk})}
+            onClick={() => {this.setState({noOk: !this.state.noOk})}}
+          >
+            без Океании
+          </li>
+        </ul>
         <ul className="colors-wrapper">
           <li
             className={cn({'color-ffea00': true, active: color === 'ffea00'})}
             onClick={() => {this.setState({color: 'ffea00'})}}
-          ><span></span>
+          >
+            <span/>
           </li>
           <li
             className={cn({'color-00d8ff': true, active: color === '00d8ff'})}
             onClick={() => {this.setState({color: '00d8ff'})}}
           >
-            <span></span>
+            <span/>
           </li>
           <li
             className={cn({'color-00fe1e': true, active: color === '00fe1e'})}
             onClick={() => {this.setState({color: '00fe1e'})}}
           >
-            <span></span>
+            <span/>
           </li>
           <li
             className={cn({'color-ff782e': true, active: color === 'ff782e'})}
             onClick={() => {this.setState({color: 'ff782e'})}}
           >
-            <span></span>
+            <span/>
           </li>
           <li
             className={cn({'color-ff5ace': true, active: color === 'ff5ace'})}
             onClick={() => {this.setState({color: 'ff5ace'})}}
           >
-            <span></span>
+            <span/>
           </li>
         </ul>
         <p className={styles.text}>Чтобы скачать архив с карточками, вам понадобится зайти на сайт с настольного браузера, так как некоторые мобильные устройства имеют ограничения для загрузки файлов.</p>
