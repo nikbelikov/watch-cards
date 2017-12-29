@@ -28,9 +28,24 @@ export default class IndexPage extends Component {
   }
 
   handleDownload = () => {
-    const { watch, position, translation, type, color } = this.state;
+    const { watch, position, noAf, noOk, color } = this.state;
+    const getSetName = (noAf, noOk) => {
+      if (noAf && noOk) {
+        return 'noBoth';
+      }
 
-    window.location = `http://watchcards.ru/kits/${type}/${watch}-${position}-${color}-tr_${translation}.zip`;
+      if (noAf && !noOk) {
+        return 'noAf';
+      }
+
+      if (!noAf && noOk) {
+        return 'noOk';
+      }
+
+      return 'all';
+    };
+
+    window.location = `http://watchcards.ru/kits/${watch}-${position}-${color}_${getSetName(noAf, noOk)}.zip`;
 
     setTimeout(() => {
       window.location = '/wtf';
