@@ -183,7 +183,7 @@ export default class IndexPage extends Component {
     const { loaded } = this.state;
 
     return (
-      <span className={cn('nikbelikov', {visible: loaded})}>2017 &copy; <a href="http://nikbelikov.ru/" target="_blank" rel="noopener noreferrer">nikbelikov.ru</a></span>
+      <span className={cn('nikbelikov', {visible: loaded})}>2018 &copy; <a href="http://nikbelikov.ru/" target="_blank" rel="noopener noreferrer">nikbelikov.ru</a></span>
     );
   }
 
