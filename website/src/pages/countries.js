@@ -45,7 +45,7 @@ export default class IndexPage extends Component {
       return 'all';
     };
 
-    window.location = `http://watchcards.ru/kits/${watch}-${position}-${color}_${getSetName(noAf, noOk)}.zip`;
+    window.location = `http://watchcards.ru/kits/countries/${watch}_${position}_${color}_${getSetName(noAf, noOk)}.zip`;
 
     setTimeout(() => {
       window.location = '/wtf';
@@ -169,6 +169,12 @@ export default class IndexPage extends Component {
 
   renderDownloadIcon() {
     const { watch } = this.state;
+    const getWatchTitle = (watch) => {
+      if (watch === 'big') {
+        return '42mm'
+      }
+      return '38mm';
+    };
 
     return (
       <img
@@ -176,7 +182,7 @@ export default class IndexPage extends Component {
         onClick={this.handleDownload}
         src={downloadImage}
         alt="download image"
-        title={`Скачать набор для Apple Watch ${watch}`}
+        title={`Скачать набор для Apple Watch ${getWatchTitle(watch)}`}
       />
     );
   }
