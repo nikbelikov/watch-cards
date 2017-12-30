@@ -11,8 +11,14 @@ import realPhoto from '../images/real.jpg';
 
 export default class WtfPage extends Component {
   state = {
-    backUrl: localStorage.getItem('page') || '/',
+    backUrl: '/',
   };
+
+  componentDidMount() {
+    this.setState({
+      backUrl: localStorage.getItem('page') || '/',
+    });
+  }
 
   render() {
     return (
