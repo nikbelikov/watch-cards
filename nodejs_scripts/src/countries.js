@@ -34,7 +34,7 @@ config.forEach((config) => {
     const isOneLine = helpers.isOneLine(name);
     const top = helpers.getTopPosition(watch, position, isOneLine);
     const countriesSetName = helpers.getCountriesSetName(countriesSet);
-    const folderName = `${watch}_${position}_${color}_${countriesSetName}`;
+    const folderName = `${watch}_${position}_${color.slice(1)}_${countriesSetName}`;
     const folderLocation = `dist/${folderName}`;
 
     if (!fs.existsSync(folderLocation)) {
