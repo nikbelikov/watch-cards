@@ -654,12 +654,27 @@ pre tt:after {
 }
 
 .themes li {
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px dashed transparent;
   line-height: 18px;
+  color: white;
+
+  & a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #999da7;
+    transition: color 1s 0s, border-color 1.5s 0s;
+
+    &:hover {
+      border-bottom-color: transparent;
+      color: white;
+      transition: color 0s 0s, border-color 0s 0s;
+    }
+  }
 }
 
 .themes li.active {
   border-bottom-color: white;
+  color: white;
 }
 
 @media (max-width: 900px) {
@@ -668,10 +683,6 @@ pre tt:after {
     flex: 1 0 0;
     padding-top: 50px;
   }
-}
-
-.themes li {
-  color: white;
 }
 
 ul {
@@ -790,7 +801,7 @@ ul {
   margin: 0 10px;
   cursor: pointer;
   transition: color 1s 0s;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px dashed transparent;
   line-height: 18px;
 }
 
@@ -841,6 +852,10 @@ ul {
   background: #ff782e;
 }
 
+.color-ff5ace span {
+  background: #ff5ace;
+}
+
 .download-set {
   color: white;
   margin: 0 0 0 10px;
@@ -866,7 +881,7 @@ ul {
   font-size: 9px;
   color: white;
   opacity: 0;
-  transition: opacity 1s 3s;
+  transition: opacity 2s 1.5s;
 }
 
 .nikbelikov.visible {

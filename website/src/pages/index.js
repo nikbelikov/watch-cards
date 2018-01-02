@@ -13,7 +13,7 @@ export default class IndexPage extends Component {
     position: ['top', 'bottom'][helpers.randomInteger(0, 1)],
     translation: [true, false][helpers.randomInteger(0, 1)],
     type: ['popular', 'extended'][helpers.randomInteger(0, 1)],
-    color: ['ffea00', 'ffea00', '00d8ff', '00fe1e', 'ff782e'][helpers.randomInteger(0, 4)],
+    color: ['ffea00', 'ffea00', '00d8ff', '00fe1e', 'ff782e', 'ff5ace'][helpers.randomInteger(0, 5)],
     loaded: false,
   };
 
@@ -23,6 +23,8 @@ export default class IndexPage extends Component {
         loaded: true,
       });
     }, 1);
+
+    localStorage.setItem('page', '/');
   }
 
   handleDownload = () => {
@@ -41,8 +43,10 @@ export default class IndexPage extends Component {
     return (
       <div className={cn('themes', {visible: loaded})}>
         <ul>
-          <li className="active">Неправильные глаголы английского языка</li>
-          <li>Скоро: страны и их столицы</li>
+          <li>Неправильные глаголы английского языка</li>
+          <li>
+            <Link to="/countries">Страны и их столицы</Link>
+          </li>
         </ul>
       </div>
     );
@@ -148,6 +152,12 @@ export default class IndexPage extends Component {
           >
             <span></span>
           </li>
+          <li
+            className={cn({'color-ff5ace': true, active: color === 'ff5ace'})}
+            onClick={() => {this.setState({color: 'ff5ace'})}}
+          >
+            <span></span>
+          </li>
         </ul>
         <p className={styles.text}>Чтобы скачать архив с карточками, вам понадобится зайти на сайт с настольного браузера, так как некоторые мобильные устройства имеют ограничения для загрузки файлов.</p>
         {this.renderDownloadIcon()}
@@ -173,7 +183,7 @@ export default class IndexPage extends Component {
     const { loaded } = this.state;
 
     return (
-      <span className={cn('nikbelikov', {visible: loaded})}>2017 &copy; <a href="http://nikbelikov.ru/" target="_blank" rel="noopener noreferrer">nikbelikov.ru</a></span>
+      <span className={cn('nikbelikov', {visible: loaded})}>2018 &copy; <a href="http://nikbelikov.ru/" target="_blank" rel="noopener noreferrer">nikbelikov.ru</a></span>
     );
   }
 

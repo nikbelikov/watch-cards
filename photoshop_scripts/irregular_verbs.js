@@ -153,8 +153,9 @@ words = [
 params = [
   ['38mm', '42mm'], // watch
   ['top', 'bottom'], // position
-  ['ff5ace'], // highlightColor
+  ['ffea00', '00d8ff', '00fe1e', 'ff782e', 'ff5ace'], // highlightColor
   [true, false], // drawTranslation
+
 ];
 
 var generateConfig = function(params) {
