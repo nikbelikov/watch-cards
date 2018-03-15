@@ -3,28 +3,18 @@
   width: 100%;
 }
 
-@media (max-width: 900px) {
-  .wrapper {
-    display: block;
-  }
-}
-
-.question {
+.appstore {
   position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 20px;
-  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
   opacity: 0;
-  transition: opacity 2s 1.5s, transform 0.2s;
+  transition: opacity 3s;
 }
 
-.questionLoaded {
+.appStoreLoaded {
   opacity: 1;
-}
-
-.question.questionLoaded:hover {
-  transform: scale(1.5);
 }
 
 .text {
@@ -37,8 +27,3 @@
   max-width: 300px;
 }
 
-@media (max-width: 900px) {
-  .text {
-    display: block;
-  }
-}
